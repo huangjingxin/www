@@ -1,0 +1,358 @@
+{
+    "site": [
+        {
+            "icon": "icon-tuijianxiangmu",
+            "name": "推荐",
+            "lists": [
+                {
+                    "name": "github",
+                    "description": "程序员的天堂",
+                    "url": "https://github.com",
+                    "logo": "github.png"
+                },
+                {
+                    "name": "80s",
+                    "description": "看剧不花钱",
+                    "url": "https://www.80s.la",
+                    "logo": "80s.png"
+                },
+                {
+                    "name": "今日热榜",
+                    "description": "热搜榜聚合，高效读新闻",
+                    "url": "https://tophub.today",
+                    "logo": "tophub.png"
+                }
+            ],
+            "id": "0"
+        },
+        {
+            "icon": "icon-xinwen",
+            "name": "资讯",
+            "lists": [
+                {
+                    "name": "微博热搜榜",
+                    "description": "微博热搜",
+                    "url": "https://s.weibo.com/top/summary",
+                    "logo": "weibo.png"
+                },
+                {
+                    "name": "知乎热榜",
+                    "description": "知乎热搜",
+                    "url": "https://www.zhihu.com/billboard",
+                    "logo": "zhihu.png"
+                },
+                {
+                    "name": "github trending",
+                    "description": "github 排行榜",
+                    "url": "https://github.com/trending",
+                    "logo": "github.png"
+                },
+                {
+                    "name": "hacker news",
+                    "description": "黑客新闻",
+                    "url": "https://news.ycombinator.com",
+                    "logo": "ycombinator.png"
+                },
+                {
+                    "name": "今日热榜",
+                    "description": "热搜聚合榜，高效读新闻",
+                    "url": "https://tophub.today",
+                    "logo": "tophub.png"
+                },
+                {
+                    "name": "AnyKnew",
+                    "description": "热搜榜聚合，高效读新闻",
+                    "url": "https://www.anyknew.com/#/",
+                    "logo": "anyknew.png"
+                }
+            ],
+            "id": "1"
+        },
+        {
+            "icon": "icon-app-store-ios",
+            "name": "软件",
+            "lists": [
+                {
+                    "name": "腾讯软件中心",
+                    "description": "海量，高速，无毒",
+                    "url": "https://pc.qq.com",
+                    "logo": "qq-pc.png"
+                },
+                {
+                    "name": "老殁",
+                    "description": "破解软件，安全无毒，放心使用",
+                    "url": "https://www.laomoit.com",
+                    "logo": "laomoit.png"
+                },
+                {
+                    "name": "轻狂志",
+                    "description": "破解软件，质量高，要收费进群，谨慎！",
+                    "url": "https://www.flighty.cn",
+                    "logo": "flighty.png"
+                }
+            ],
+            "id": "2"
+        },
+        {
+            "icon": "icon-windows",
+            "name": "系统",
+            "lists": [
+                {
+                    "name": "MSDN",
+                    "description": "微软原版操作系统",
+                    "url": "https://msdn.itellyou.cn",
+                    "logo": "itellyou.png"
+                },
+                {
+                    "name": "阿里开源镜像站",
+                    "description": "高速下载各种Linux",
+                    "url": "https://opsx.alibaba.com",
+                    "logo": "alibaba-opsx.png"
+                },
+                {
+                    "name": "微PE工具箱",
+                    "description": "傻瓜式装Windows系统",
+                    "url": "http://www.wepe.com.cn",
+                    "logo": "wepe.png"
+                },
+                {
+                    "name": "rufus",
+                    "description": "轻松创建USB启动盘",
+                    "url": "https://rufus.ie",
+                    "logo": "rufus.png"
+                }
+            ],
+            "id": "3"
+        },
+        {
+            "icon": "icon-dianying",
+            "name": "影音",
+            "lists": [
+                {
+                    "name": "80s电影网",
+                    "description": "看剧不花钱",
+                    "url": "https://www.80s.la",
+                    "logo": "80s.png"
+                },
+                {
+                    "name": "电影盒子",
+                    "description": "免费电影",
+                    "url": "http://www.5iwanyouxi.com",
+                    "logo": "5iwanyouxi.png"
+                },
+                {
+                    "name": "北漂鱼",
+                    "description": "VIP视频解析，付费视频免费看",
+                    "url": "http://tv.beipy.com/#",
+                    "logo": "beipy.png"
+                }
+            ],
+            "id": "4"
+        },
+        {
+            "icon": "icon-shu",
+            "name": "阅读",
+            "lists": [
+                {
+                    "name": "鸠摩搜索",
+                    "description": "名著小说，多种格式",
+                    "url": "https://www.jiumodiary.com",
+                    "logo": "jiumodiary.png"
+                },
+                {
+                    "name": "知轩藏书",
+                    "description": "小说网站，内容较全",
+                    "url": "http://www.zxcs.me",
+                    "logo": "zxcs.png"
+                },
+                {
+                    "name": "97漫画",
+                    "description": "漫画网站，内容较全",
+                    "url": "https://www.97manhua.com",
+                    "logo": "97manhua.png"
+                }
+            ],
+            "id": "5"
+        },
+        {
+            "icon": "icon-gongjuxiang",
+            "name": "工具",
+            "lists": [
+                {
+                    "name": "谷歌拓展程序",
+                    "description": "谷歌浏览器拓展程序",
+                    "url": "https://chrome.google.com/webstore/category/extensions?hl=zh-CN",
+                    "logo": "google-extensions.png"
+                },
+                {
+                    "name": "173应用网",
+                    "description": "国内轻松下载chrome拓展",
+                    "url": "https://173app.com/chrome-ext",
+                    "logo": "173app.png"
+                },
+                {
+                    "name": "Greasy Fork",
+                    "description": "油猴脚本",
+                    "url": "https://greasyfork.org/zh-CN",
+                    "logo": "greasyfork.png"
+                },
+                {
+                    "name": "toolfk",
+                    "description": "程序员在线工具",
+                    "url": "https://www.toolfk.com",
+                    "logo": "toolfk.png"
+                },
+                {
+                    "name": "在线工具-oschina",
+                    "description": "程序员在线工具-开源中国社区",
+                    "url": "http://tool.oschina.net",
+                    "logo": "oschina.png"
+                },
+                {
+                    "name": "菜鸟工具",
+                    "description": "程序员在线工具-菜鸟教程",
+                    "url": "https://c.runoob.com",
+                    "logo": "runoob.png"
+                },
+                {
+                    "name": "草料二维码",
+                    "description": "草料二维码生成器",
+                    "url": "https://cli.im",
+                    "logo": "cli.png"
+                },
+                {
+                    "name": "磁力蛙",
+                    "description": "最好用的磁力链接搜索引擎",
+                    "url": "http://www.ciliwa.co",
+                    "logo": "ciliwa.png"
+                }
+            ],
+            "id": "6"
+        },
+        {
+            "icon": "icon-sucaiku",
+            "name": "素材",
+            "lists": [
+                {
+                    "name": "iconfont",
+                    "description": "阿里巴巴矢量图标库",
+                    "url": "https://www.iconfont.cn",
+                    "logo": "iconfont.png"
+                },
+                {
+                    "name": "花瓣网",
+                    "description": "图片素材",
+                    "url": "https://huaban.com",
+                    "logo": "huaban.png"
+                },
+                {
+                    "name": "easyicon",
+                    "description": "图标下载",
+                    "url": "https://www.easyicon.net",
+                    "logo": "easyicon.png"
+                },
+                {
+                    "name": "Google Fonts",
+                    "description": "谷歌字体",
+                    "url": "https://fonts.google.com",
+                    "logo": "google-fonts.png"
+                }
+            ],
+            "id": "7"
+        },
+        {
+            "icon": "icon-weibiaoti35",
+            "name": "产品",
+            "lists": [
+                {
+                    "name": "互联网早读课",
+                    "description": "互联网行业深度阅读与学习平台",
+                    "url": "https://www.zaodula.com",
+                    "logo": "zaodula.png"
+                }
+            ],
+            "id": "8"
+        },
+        {
+            "icon": "icon-xueshimao",
+            "name": "教程",
+            "lists": [
+                {
+                    "name": "慕课网",
+                    "description": "程序员的梦工厂",
+                    "url": "https://www.imooc.com",
+                    "logo": "imooc.png"
+                },
+                {
+                    "name": "腾讯课堂",
+                    "description": "专业在线教育平台",
+                    "url": "https://ke.qq.com",
+                    "logo": "qq-ke.png"
+                }
+            ],
+            "id": "9"
+        },
+        {
+            "icon": "icon-shizhong1",
+            "name": "临时",
+            "lists": [
+                {
+                    "name": "云短信",
+                    "description": "临时使用短信接收验证码，避免信息泄露",
+                    "url": "https://www.pdflibr.com",
+                    "logo": "pdflibr.png"
+                },
+                {
+                    "name": "临时邮箱",
+                    "description": "临时使用邮箱接收邮件，避免信息泄露",
+                    "url": "https://www.linshiyouxiang.net",
+                    "logo": "linshiyouxiang.png"
+                },
+                {
+                    "name": "临时网盘",
+                    "description": "临时发送文件，避免信息泄露",
+                    "url": "https://send.firefox.com",
+                    "logo": "firefox-send.png"
+                }
+            ],
+            "id": "10"
+        },
+        {
+            "icon": "icon-jiaolian1",
+            "name": "博主",
+            "lists": [
+                {
+                    "name": "阮一峰",
+                    "description": "互联网网红，前端大神",
+                    "url": "http://www.ruanyifeng.com/",
+                    "logo": "ruanyifeng.png"
+                },
+                {
+                    "name": "廖雪峰",
+                    "description": "免费教程，面向初学者",
+                    "url": "https://www.liaoxuefeng.com",
+                    "logo": "liaoxuefeng.png"
+                },
+                {
+                    "name": "张鑫旭",
+                    "description": "前端大神，专注css",
+                    "url": "https://www.zhangxinxu.com",
+                    "logo": "zhangxinxu.png"
+                },
+                {
+                    "name": "奔跑中的奶酪",
+                    "description": "高效学习法，火狐开发者",
+                    "url": "https://www.runningcheese.com",
+                    "logo": "runningcheese.png"
+                },
+                {
+                    "name": "微夏博客网",
+                    "description": "致力于网络优秀资源的分享、交流！",
+                    "url": "http://www.vxia.net",
+                    "logo": "vxia.png"
+                }
+            ],
+            "id": "11"
+        }
+    ]
+}
