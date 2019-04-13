@@ -5,10 +5,10 @@
             "name": "推荐",
             "lists": [
                 {
-                    "name": "github",
-                    "description": "程序员的天堂",
-                    "url": "https://github.com",
-                    "logo": "github.png"
+                    "name": "AnyKnew",
+                    "description": "热搜榜聚合，高效读新闻",
+                    "url": "https://www.anyknew.com/#/",
+                    "logo": "anyknew.png"
                 },
                 {
                     "name": "80s",
@@ -17,11 +17,18 @@
                     "logo": "80s.png"
                 },
                 {
-                    "name": "今日热榜",
-                    "description": "热搜榜聚合，高效读新闻",
-                    "url": "https://tophub.today",
-                    "logo": "tophub.png"
+                    "name": "笔趣阁",
+                    "description": "小说网站，追更必备",
+                    "url": "https://www.biquge5200.cc",
+                    "logo": "biquge5200.png"
+                },
+                {
+                    "name": "漫画柜",
+                    "description": "漫画网站，内容较全",
+                    "url": "https://www.manhuagui.com",
+                    "logo": "manhuagui.png"
                 }
+
             ],
             "id": "0"
         },
@@ -172,10 +179,16 @@
                     "logo": "zxcs.png"
                 },
                 {
-                    "name": "97漫画",
+                    "name": "笔趣阁",
+                    "description": "小说网站，追更必备",
+                    "url": "https://www.biquge5200.cc",
+                    "logo": "biquge5200.png"
+                },
+                {
+                    "name": "漫画柜",
                     "description": "漫画网站，内容较全",
-                    "url": "https://www.97manhua.com",
-                    "logo": "97manhua.png"
+                    "url": "https://www.manhuagui.com",
+                    "logo": "manhuagui.png"
                 }
             ],
             "id": "5"
@@ -299,7 +312,7 @@
             "id": "9"
         },
         {
-            "icon": "icon-shizhong1",
+            "icon": "icon-shizhong",
             "name": "临时",
             "lists": [
                 {
@@ -359,6 +372,80 @@
                 }
             ],
             "id": "11"
+        },
+        {
+            "icon": "icon-ai-code",
+            "name": "编程",
+            "lists": [
+                {
+                    "name": "Github",
+                    "description": "程序员的天堂",
+                    "url": "https://github.com",
+                    "logo": "github.png"
+                },
+                {
+                    "name": "码云",
+                    "description": "国内版 Github",
+                    "url": "https://gitee.com",
+                    "logo": "gitee.png"
+                },
+                {
+                    "name": "菜鸟教程",
+                    "description": "学的不仅是技术，更是梦想！",
+                    "url": "http://www.runoob.com",
+                    "logo": "runoob.png"
+                },
+                {
+                    "name": "印记中文",
+                    "description": "前端知识库，中文文档",
+                    "url": "https://www.docschina.org",
+                    "logo": "docschina.png"
+                },
+                {
+                    "name": "bootstrap中文网",
+                    "description": "前端开源工具包",
+                    "url": "http://www.bootcss.com",
+                    "logo": "bootcss.png"
+                },
+                {
+                    "name": "BootCDN",
+                    "description": "开源 免费 CDN",
+                    "url": "https://www.bootcdn.cn",
+                    "logo": "bootcdn.png"
+                }
+            ],
+            "id": "12"
+        },
+        {
+            "icon": "icon-rss",
+            "name": "RSS",
+            "lists": [
+                {
+                    "name": "RSSHub",
+                    "description": "RSS订阅源",
+                    "url": "https://docs.rsshub.app",
+                    "logo": "rsshub.png"
+                },
+                {
+                    "name": "Feeder",
+                    "description": "在线RSS阅读",
+                    "url": "https://feeder.co/reader",
+                    "logo": "feeder.png"
+                },
+                {
+                    "name": "RSS Feed Reader",
+                    "description": "RSS Chrome 插件",
+                    "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
+                    "logo": "rss-feed-reader.png"
+                },
+                {
+                    "name": "Reeder",
+                    "description": "IOS&MAC阅读器",
+                    "url": "http://reederapp.com",
+                    "logo": "reederapp.png"
+                }
+            ],
+            "id": "13"
         }
     ]
 }
