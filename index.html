@@ -43,15 +43,15 @@
             <div class="fixed min-h-screen text-white pin-t pin-l">
                 <div class="flex flex-row items-center justify-center py-4">
                     <div class="h-12 w-12 lg:mr-4">
-                        <img src="./image/favicon.png" alt="favicon" class="rounded">
+                        <p class="text-5xl font-mono font-bold">黄</p>
                     </div>
                     <div class="md:hidden md:mr-4 lg:block lg:mr-0">
-                        <h3 class="italic text-blue">黄敬鑫导航</h3>
+                        <h3 class="text-blue">黄敬鑫导航</h3>
                         <p class="mt-2 text-sm text-blue-lightest">用完即走 不留痕迹</p>
                     </div>
                 </div>
                 <ul class="list-reset mt-6 md:pl-0 md:pr-0 lg:pl-16 lg:pr-8">
-                    <li v-for="type in types" class="text-grey cursor-pointer hover:text-blue">
+                    <li v-for="type in types" class="text-grey cursor-pointer hover:text-white">
                         <div class="flex flex-row justify-center py-3 border-b border-grey-darker"
                             @click="jump(type.id)">
                             <span class="iconfont lg:mr-2" :class="type.icon"></span>
