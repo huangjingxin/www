@@ -259,12 +259,6 @@
                     "logo": "iconfont.png"
                 },
                 {
-                    "name": "花瓣网",
-                    "description": "图片素材",
-                    "url": "https://huaban.com",
-                    "logo": "huaban.png"
-                },
-                {
                     "name": "easyicon",
                     "description": "图标下载",
                     "url": "https://www.easyicon.net",
@@ -275,6 +269,12 @@
                     "description": "谷歌字体",
                     "url": "https://fonts.google.com",
                     "logo": "google-fonts.png"
+                },
+                {
+                    "name": "花瓣网",
+                    "description": "图片素材",
+                    "url": "https://huaban.com",
+                    "logo": "huaban.png"
                 }
             ],
             "id": "7"
@@ -296,6 +296,12 @@
             "icon": "icon-xueshimao",
             "name": "教程",
             "lists": [
+                {
+                    "name": "菜鸟教程",
+                    "description": "学的不仅是技术，更是梦想！",
+                    "url": "http://www.runoob.com",
+                    "logo": "runoob.png"
+                },
                 {
                     "name": "慕课网",
                     "description": "程序员的梦工厂",
@@ -388,12 +394,6 @@
                     "description": "国内版 Github",
                     "url": "https://gitee.com",
                     "logo": "gitee.png"
-                },
-                {
-                    "name": "菜鸟教程",
-                    "description": "学的不仅是技术，更是梦想！",
-                    "url": "http://www.runoob.com",
-                    "logo": "runoob.png"
                 },
                 {
                     "name": "印记中文",
