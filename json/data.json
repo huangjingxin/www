@@ -365,6 +365,12 @@
                     "logo": "zhangxinxu.png"
                 },
                 {
+                    "name": "大漠",
+                    "description": "前端技术文章",
+                    "url": "https://www.w3cplus.com",
+                    "logo": "w3cplus.png"
+                },
+                {
                     "name": "奔跑中的奶酪",
                     "description": "高效学习法，火狐开发者",
                     "url": "https://www.runningcheese.com",
