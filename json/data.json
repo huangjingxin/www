@@ -49,13 +49,13 @@
                     "logo": "zhihu.png"
                 },
                 {
-                    "name": "github trending",
+                    "name": "Github trending",
                     "description": "github 排行榜",
                     "url": "https://github.com/trending",
                     "logo": "github.png"
                 },
                 {
-                    "name": "hacker news",
+                    "name": "Hacker news",
                     "description": "黑客新闻",
                     "url": "https://news.ycombinator.com",
                     "logo": "ycombinator.png"
@@ -123,7 +123,7 @@
                     "logo": "wepe.png"
                 },
                 {
-                    "name": "rufus",
+                    "name": "Rufus",
                     "description": "轻松创建USB启动盘",
                     "url": "https://rufus.ie",
                     "logo": "rufus.png"
@@ -445,8 +445,14 @@
                     "logo": "rsshub.png"
                 },
                 {
+                    "name": "Inoreader",
+                    "description": "同步RSS源，在线阅读，中文界面",
+                    "url": "https://www.inoreader.com/?lang=zh_CN",
+                    "logo": "inoreader.png"
+                },
+                {
                     "name": "Feeder",
-                    "description": "在线RSS阅读",
+                    "description": "在线RSS阅读，英文界面",
                     "url": "https://feeder.co/reader",
                     "logo": "feeder.png"
                 },
