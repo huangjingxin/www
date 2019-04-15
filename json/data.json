@@ -408,7 +408,7 @@
                     "logo": "docschina.png"
                 },
                 {
-                    "name": "bootstrap中文网",
+                    "name": "Bootstrap中文网",
                     "description": "前端开源工具包",
                     "url": "http://www.bootcss.com",
                     "logo": "bootcss.png"
@@ -418,6 +418,18 @@
                     "description": "开源 免费 CDN",
                     "url": "https://www.bootcdn.cn",
                     "logo": "bootcdn.png"
+                },
+                {
+                    "name": "BUNDLEPHOBIA",
+                    "description": "NPM包大小检查",
+                    "url": "https://bundlephobia.com",
+                    "logo": "bundlephobia.png"
+                },
+                {
+                    "name": "web.dev",
+                    "description": "网页性能检测",
+                    "url": "https://web.dev",
+                    "logo": "dev-web.png"
                 }
             ],
             "id": "12"
