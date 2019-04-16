@@ -28,7 +28,6 @@
                     "url": "https://www.manhuagui.com",
                     "logo": "manhuagui.png"
                 }
-
             ],
             "id": "0"
         },
@@ -284,10 +283,22 @@
             "name": "产品",
             "lists": [
                 {
+                    "name": "人人都是产品经理",
+                    "description": "产品经理、产品爱好者学习交流平台",
+                    "url": "http://www.woshipm.com",
+                    "logo": "woshipm.png"
+                },
+                {
                     "name": "互联网早读课",
                     "description": "互联网行业深度阅读与学习平台",
                     "url": "https://www.zaodula.com",
                     "logo": "zaodula.png"
+                },
+                {
+                    "name": "爱运营",
+                    "description": "专注于网站产品运营管理、淘宝运营",
+                    "url": "https://www.iyunying.org",
+                    "logo": "iyunying.png"
                 }
             ],
             "id": "8"
