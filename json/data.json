@@ -289,12 +289,6 @@
                     "logo": "woshipm.png"
                 },
                 {
-                    "name": "互联网早读课",
-                    "description": "互联网行业深度阅读与学习平台",
-                    "url": "https://www.zaodula.com",
-                    "logo": "zaodula.png"
-                },
-                {
                     "name": "爱运营",
                     "description": "专注于网站产品运营管理、淘宝运营",
                     "url": "https://www.iyunying.org",
@@ -374,12 +368,6 @@
                     "description": "前端大神，专注css",
                     "url": "https://www.zhangxinxu.com",
                     "logo": "zhangxinxu.png"
-                },
-                {
-                    "name": "大漠",
-                    "description": "前端技术文章",
-                    "url": "https://www.w3cplus.com",
-                    "logo": "w3cplus.png"
                 },
                 {
                     "name": "奔跑中的奶酪",
