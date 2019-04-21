@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <!-- PWA -->
+    <link rel="manifest" href="/pwa/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="黄敬鑫导航">
+    <link rel="apple-touch-icon" href="pwa/icons/logo-256.png">
+    <!-- cdn & icon -->
     <link href="https://cdn.bootcss.com/tailwindcss/0.7.4/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1135089_wctuerfiwdp.css">
+
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
     <title>黄敬鑫导航</title>
+
     <style>
         html,
         body {
@@ -25,7 +34,7 @@
         }
 
         a {
-            color: white;
+            color: #606f7b;
             text-decoration: none;
         }
 
@@ -39,18 +48,18 @@
 
     <div id="app" class="flex flex-row">
         <!-- 左边栏 -->
-        <nav class="bg-grey-darkest min-h-screen md:w-12 lg:w-64 hidden md:block">
-            <div class="fixed min-h-screen text-white pin-t pin-l">
+        <nav class="bg-grey-darkest min-h-screen hidden sm:block sm:w-12 lg:w-64">
+            <div class="fixed pin-t pin-l hidden sm:block sm:w-12 lg:w-64 md:block min-h-screen text-white">
                 <div class="flex flex-row items-center justify-center py-4">
                     <div class="h-12 w-12 lg:mr-4">
                         <p class="text-5xl font-mono font-bold">黄</p>
                     </div>
                     <div class="md:hidden md:mr-4 lg:block lg:mr-0">
-                        <h3 class="text-blue">黄敬鑫导航</h3>
-                        <p class="mt-2 text-sm text-blue-lightest">用完即走 不留痕迹</p>
+                        <h3 class="text-blue hidden md:block">黄敬鑫导航</h3>
+                        <p class="mt-2 text-sm text-blue-lightest hidden md:block">黄敬鑫携程为您服务</p>
                     </div>
                 </div>
-                <ul class="list-reset mt-6 md:pl-0 md:pr-0 lg:pl-16 lg:pr-8">
+                <ul class="list-reset mt-2 md:pl-0 md:pr-0 lg:pl-16 lg:pr-8">
                     <li v-for="type in types" class="text-grey cursor-pointer hover:text-white">
                         <div class="flex flex-row justify-center py-3 border-b border-grey-darker"
                             @click="jump(type.id)">
@@ -60,39 +69,40 @@
                         </div>
                     </li>
                 </ul>
-                <a class="block flex flex-row justify-center mt-6 text-sm cursor-pointer" href="#about">
+                <a class="block flex flex-row justify-center mt-6 text-sm cursor-pointer text-white" href="#about">
                     <span class="iconfont icon-guanyuwomen lg:mr-2"></span>
-                    <span class="md:hidden lg:block">关于本站</span>
+                    <span class="hidden lg:block">关于本站</span>
                 </a>
             </div>
         </nav>
 
 
         <!-- 右边栏 -->
-        <div class="flex-1 p-8" style="background-color:#f7f7f7">
+        <div class="flex-1 sm:p-8" style="background-color:#f7f7f7">
 
             <div v-for="type in types">
-                <div class="py-4 mt-2" :id="type.id">
+                <div class="py-4 mt-2 ml-2 sm:ml-0" :id="type.id">
                     <span class="iconfont icon-biaoqian"></span>
                     <span class="">{{type.name}}</span>
                 </div>
 
                 <div class="flex flex-row items-center flex-wrap">
                     <div v-for="list in type.lists"
-                        class="flex flex-row items-center w-full md:w-1/2 xl:w-1/4 h-24 px-2 mt-4 overflow-hidden">
+                        class="flex flex-row items-center w-1/3 sm:w-1/2 xl:w-1/4 sm:h-24 px-2 mt-4 overflow-hidden">
 
-                        <div @click="open(list.url)" style="min-width:80px;min-height:48px"
-                            class="flex flex-row items-center p-4 h-full w-full border bg-white rounded cursor-pointer hover:text-blue hover:border-blue">
-                            <div class="h-12 w-12 mr-4" style="min-width:48px;min-height:48px">
-                                <img :src="'./image/logo/'+list.logo" :alt="list.logo" class="h-12 w-12 rounded">
+                        <div @click="open(list.url)" style="min-width:80px"
+                            class="flex flex-col sm:flex-row items-center px-1 py-2 sm:p-4 h-full w-full border bg-white rounded cursor-pointer hover:text-blue hover:border-blue">
+                            <div class="h-12 w-12 sm:mr-4" style="min-height:48px;min-width:48px;">
+                                <img :src="'./image/logo/'+list.logo" :alt="list.logo" class="w-full h-full rounded">
                             </div>
-                            <div class="flex flex-col sm:block">
-                                <span class="font-bold text-sm w-full truncate">{{list.name}}</span>
+
+                            <div class="flex flex-col w-5/6 overflow-hidden">
                                 <span
-                                    class="h-8 text-grey-darkest text-sm mt-2 w-full double-line">{{list.description}}</span>
+                                    class="font-bold text-sm whitespace-no-wrap sm:truncate mt-2 text-center sm:text-left">{{list.name}}</span>
+                                <span
+                                    class="h-8 text-grey-darkest text-sm mt-2 w-full hidden sm:block sm:double-line">{{list.description}}</span>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
@@ -106,8 +116,8 @@
                 </div>
                 <div>
                     <blockquote class="">
-                        <p>看到 <a href="http://www.duoluole.com" target="_blank" class="text-blue-light">大神-轻狂志
-                            </a>做了一个导航，一时兴起也做了一个。</p>
+                        <p class="">紧跟 <a href="http://www.duoluole.com" target="_blank" class="text-blue-light">大神-轻狂志
+                            </a>步伐，在模仿中进步。</p>
                     </blockquote>
                 </div>
 
@@ -117,32 +127,28 @@
                 </div>
                 <div>
                     <blockquote>
-                        <p>前端业余爱好者</p>
-                        <p></p>
-                        <p>欢迎加好友学习交流： chinahuangjx@gmail.com</p>
+                        <p>前端业余爱好者，欢迎加好友学习交流</p>
                     </blockquote>
                 </div>
             </div>
 
             <!-- 备案信息 -->
-            <div style="margin:0 auto; margin-top:40px;">
-                <p style="float:left;color:#939393;padding-right: 32px;font-size: 14px;line-height:20px;">
-                    <span style="margin-right:8px;">Copyright©2019 黄敬鑫</span>
-                    <span>粤ICP备18112952号-1</span>
+            <div class="flex flex-col md:flex-row items-center mt-12">
+                <p class="text-sm md:mr-4 py-1" style="color:#939393;">Copyright©2019 黄敬鑫</p>
+                <p class="md:mr-8 py-1">
+                    <span class="text-sm">粤ICP备18112952号-1</span>
                     <!-- cnzz 站点统计 -->
                     <script type="text/javascript">
                         var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
                         document.write(unescape("%3Cspan id='cnzz_stat_icon_1277114138'%3E%3C/span%3E%3Cscript src='" +
                             cnzz_protocol +
                             "s5.cnzz.com/z_stat.php%3Fid%3D1277114138%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
-                            ));
+                        ));
                     </script>
                 </p>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001145"
-                    style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img
-                        src="image/beian/备案图标.png" style="float:left;" />
-                    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤公网安备
-                        44030902001145号</p>
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001145" class="py-2">
+                    <img class="align-middle" src="image/beian/备案图标.png"/>
+                    <span class="align-middle">粤公网安备 44030902001145号</span>
                 </a>
             </div>
 
@@ -177,6 +183,8 @@
             }
         })
     </script>
+    <!-- <script src="./sw.js"></script> -->
+
 </body>
 
 </html>

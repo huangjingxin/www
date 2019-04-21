@@ -197,7 +197,7 @@
             "name": "工具",
             "lists": [
                 {
-                    "name": "谷歌拓展程序",
+                    "name": "浏览器拓展",
                     "description": "谷歌浏览器拓展程序",
                     "url": "https://chrome.google.com/webstore/category/extensions?hl=zh-CN",
                     "logo": "google-extensions.png"
@@ -221,7 +221,7 @@
                     "logo": "toolfk.png"
                 },
                 {
-                    "name": "在线工具-oschina",
+                    "name": "在线工具",
                     "description": "程序员在线工具-开源中国社区",
                     "url": "http://tool.oschina.net",
                     "logo": "oschina.png"
@@ -234,7 +234,7 @@
                 },
                 {
                     "name": "草料二维码",
-                    "description": "草料二维码生成器",
+                    "description": "二维码生成器",
                     "url": "https://cli.im",
                     "logo": "cli.png"
                 },
@@ -243,6 +243,12 @@
                     "description": "最好用的磁力链接搜索引擎",
                     "url": "http://www.ciliwa.co",
                     "logo": "ciliwa.png"
+                },
+                {
+                    "name": "查询网",
+                    "description": "综合查询、测试",
+                    "url": "http://qq.ip138.com",
+                    "logo": "ip138.png"
                 }
             ],
             "id": "6"
@@ -328,13 +334,13 @@
             "lists": [
                 {
                     "name": "云短信",
-                    "description": "临时使用短信接收验证码，避免信息泄露",
+                    "description": "临时接收验证码，避免信息泄露",
                     "url": "https://www.pdflibr.com",
                     "logo": "pdflibr.png"
                 },
                 {
                     "name": "临时邮箱",
-                    "description": "临时使用邮箱接收邮件，避免信息泄露",
+                    "description": "临时接收邮件，避免信息泄露",
                     "url": "https://www.linshiyouxiang.net",
                     "logo": "linshiyouxiang.png"
                 },

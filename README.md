@@ -2,7 +2,7 @@
 
 > 参照[大神-轻狂志](http://www.duoluole.com)做的网址导航
 
-## 查看
+## 预览
 
 [![screenshot-site](./image/screenshot/site.png)](https://www.hjx24.com)
 
@@ -23,5 +23,5 @@
 
 前端水平还在入门阶段，欢迎添加好友学习交流。
 
-![](./image/about/qrcode-shell.png)
+![qrcode](./image/about/qrcode-shell.png)
 
