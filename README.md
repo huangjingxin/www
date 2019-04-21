@@ -24,4 +24,3 @@
 前端水平还在入门阶段，欢迎添加好友学习交流。
 
 ![qrcode](./image/about/qrcode-shell.png)
-

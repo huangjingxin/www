@@ -215,7 +215,7 @@
                     "logo": "greasyfork.png"
                 },
                 {
-                    "name": "toolfk",
+                    "name": "ToolFK",
                     "description": "程序员在线工具",
                     "url": "https://www.toolfk.com",
                     "logo": "toolfk.png"
@@ -249,6 +249,12 @@
                     "description": "综合查询、测试",
                     "url": "http://qq.ip138.com",
                     "logo": "ip138.png"
+                },
+                {
+                    "name": "MikuTools",
+                    "description": "轻量的工具集合",
+                    "url": "https://miku.tools/",
+                    "logo": "miku.png"
                 }
             ],
             "id": "6"
