@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- PWA -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -14,7 +15,7 @@
     <!-- cdn & icon -->
     <link href="https://cdn.bootcss.com/tailwindcss/0.7.4/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_1135089_wctuerfiwdp.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1135089_a6yhtng9y16.css">
 
     <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
     <title>黄敬鑫导航</title>
@@ -41,40 +42,62 @@
         #about p {
             padding-bottom: 10px;
         }
+
+        @media screen and (max-width:576px) {
+            .icon-big {
+                font-size: 36px;
+            }
+
+        }
+
+        .bg-wechat {
+            background-color: #393A3F;
+        }
     </style>
 </head>
 
 <body>
 
-    <div id="app" class="flex flex-row">
+    <div id="app" class="flex flex-col sm:flex-row">
         <!-- 左边栏 -->
-        <nav class="bg-grey-darkest min-h-screen hidden sm:block sm:w-12 lg:w-64">
-            <div class="fixed pin-t pin-l hidden sm:block sm:w-12 lg:w-64 md:block min-h-screen text-white">
-                <div class="flex flex-row items-center justify-center py-4">
-                    <div class="h-12 w-12 lg:mr-4">
+        <nav class="sm:min-h-screen w-full sm:w-12 lg:w-64">
+            <div class="bg-wechat pin-t pin-l w-full sm:w-12 lg:w-64 md:block sm:min-h-screen text-white"
+                :class="isFixed?'fixed':''">
+                <div class="flex flex-row items-center justify-between sm:justify-center py-2 sm:py-4 px-8 sm:px-0">
+                    <div class="h-12 w-12 lg:mr-4 hidden sm:block">
                         <p class="text-5xl font-mono font-bold">黄</p>
                     </div>
                     <div class="md:hidden md:mr-4 lg:block lg:mr-0">
                         <h3 class="text-blue hidden md:block">黄敬鑫导航</h3>
-                        <p class="mt-2 text-sm text-blue-lightest hidden md:block">黄敬鑫携程为您服务</p>
+                        <p class="sm:mt-2 text-lg sm:text-sm sm:text-blue-lightest block sm:hidden md:block">黄敬鑫携程为您服务
+                        </p>
+                    </div>
+                    <div class="block sm:hidden">
+                        <span class="iconfont icon-shezhi mr-2" style="font-size:24px;"
+                            @click="isFixed=!isFixed"></span>
+                        <span class="iconfont icon-caidan" style="font-size:24px;" @click="showMenu=!showMenu"></span>
                     </div>
                 </div>
-                <ul class="list-reset mt-2 md:pl-0 md:pr-0 lg:pl-16 lg:pr-8">
-                    <li v-for="type in types" class="text-grey cursor-pointer hover:text-white">
-                        <div class="flex flex-row justify-center py-3 border-b border-grey-darker"
+                <ul v-show="showMenu"
+                    class="flex flex-row flex-wrap sm:flex-col list-reset mt-2 md:pl-0 md:pr-0 lg:pl-16 lg:pr-8 ">
+                    <li v-for="type in types" class="w-1/4 sm:w-full text-grey cursor-pointer hover:text-white">
+                        <div class="flex flex-col items-center sm:flex-row sm:justify-center py-3 sm:border-b border-grey-darker"
                             @click="jump(type.id)">
-                            <span class="iconfont lg:mr-2" :class="type.icon"></span>
-                            <span class="text-sm hidden lg:block">{{type.name}}</span>
-                            <span class="iconfont icon-arrow-right-copy-copy-copy ml-16 hidden lg:block"></span>
+                            <span class="iconfont icon-big mr-0 lg:mr-2" :class="type.icon"></span>
+                            <span class="text-sm mt-1 sm:mt-0 block sm:hidden lg:block">{{type.name}}</span>
+                            <span class="iconfont icon-arrow-right ml-16 hidden lg:block"></span>
                         </div>
                     </li>
                 </ul>
-                <a class="block flex flex-row justify-center mt-6 text-sm cursor-pointer text-white" href="#about">
-                    <span class="iconfont icon-guanyuwomen lg:mr-2"></span>
-                    <span class="hidden lg:block">关于本站</span>
+                <a v-show="showMenu"
+                    class="block flex flex-row justify-center mt-2 sm:mt-6 mb-4 text-sm cursor-pointer text-white"
+                    href="#about">
+                    <span class="iconfont icon-guanyuwomen mr-4 sm:mr-0 lg:mr-2"></span>
+                    <span class="block sm:hidden lg:block">关于本站</span>
                 </a>
             </div>
         </nav>
+        <div v-if="isFixed" style="height:43px;"></div>
 
 
         <!-- 右边栏 -->
@@ -127,9 +150,20 @@
                 </div>
                 <div>
                     <blockquote>
-                        <p>前端业余爱好者，欢迎加好友学习交流</p>
+                        <p>前端业余爱好者，欢迎加好友学习交流。</p>
                     </blockquote>
                 </div>
+            </div>
+
+            <!-- 社交软件 -->
+            <div class="flex flex-row justify-center mt-8 hidden xl:block">
+                <ul class="flex flex-row flex-wrap content-center list-reset w-5/6">
+                    <li v-for="app in socials" :key="app.id" class="w-8 h-8 mx-1 mt-2">
+                        <a :href="app.url" target="_blank" class="block h-full w-full">
+                            <img :src="`./image/app/${app.logo}.png`" :alt="app.logo" :title="app.name" class="rounded">
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <!-- 备案信息 -->
@@ -146,15 +180,14 @@
                         ));
                     </script>
                 </p>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001145" class="py-2">
-                    <img class="align-middle" src="image/beian/备案图标.png"/>
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001145"
+                    class="py-2">
+                    <img class="align-middle" src="image/beian/备案图标.png" />
                     <span class="align-middle">粤公网安备 44030902001145号</span>
                 </a>
             </div>
 
-
         </div>
-
 
     </div>
 
@@ -164,13 +197,21 @@
         var app = new Vue({
             el: '#app',
             data: {
-                types: []
+                types: [],
+                socials: [],
+                showMenu: false,
+                isFixed: true
             },
             created() {
+                if (document.documentElement.clientWidth > 567) {
+                    this.showMenu = true;
+                }
+
                 fetch('./json/data.json')
                     .then(res => res.json())
                     .then(data => {
-                        this.types = data.site
+                        this.types = data.site;
+                        this.socials = data.app;
                     });
             },
             methods: {
@@ -178,12 +219,16 @@
                     window.open(url, '_blank')
                 },
                 jump(id) {
-                    document.getElementById(id).scrollIntoView()
+                    document.getElementById(id).scrollIntoView();
+                    // 如果是手机端，就顺带把导航栏关闭
+                    if (document.documentElement.clientWidth < 567) {
+                        this.showMenu = false;
+                    }
                 }
             }
         })
     </script>
-    <!-- <script src="./sw.js"></script> -->
+    <script src="./sw.js"></script>
 
 </body>
 

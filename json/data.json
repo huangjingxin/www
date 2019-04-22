@@ -48,13 +48,13 @@
                     "logo": "zhihu.png"
                 },
                 {
-                    "name": "Github trending",
+                    "name": "Github Trending",
                     "description": "github 排行榜",
                     "url": "https://github.com/trending",
                     "logo": "github.png"
                 },
                 {
-                    "name": "Hacker news",
+                    "name": "Hacker News",
                     "description": "黑客新闻",
                     "url": "https://news.ycombinator.com",
                     "logo": "ycombinator.png"
@@ -481,6 +481,122 @@
                 }
             ],
             "id": "13"
+        }
+    ],
+    "app": [
+        {
+            "id": 0,
+            "name": "QQ",
+            "url": "http://wpa.qq.com/msgrd?v=3&uin=1443511743&site=qq&menu=yes",
+            "logo": "qq"
+        },
+        {
+            "id": 1,
+            "name": "微信",
+            "url": "./image/about/qrcode.png",
+            "logo": "wechat"
+        },
+        {
+            "id": 2,
+            "name": "Github",
+            "url": "https://github.com/huangjingxin",
+            "logo": "github"
+        },
+        {
+            "id": 3,
+            "name": "码云",
+            "url": "https://gitee.com/wongjingxin",
+            "logo": "gitee"
+        },
+        {
+            "id": 4,
+            "name": "知乎",
+            "url": "https://www.zhihu.com/people/kai-diao-ji/activities",
+            "logo": "zhihu"
+        },
+        {
+            "id": 5,
+            "name": "掘金",
+            "url": "https://juejin.im/user/5b8bf0ff51882542d23a2790",
+            "logo": "juejin"
+        },
+        {
+            "id": 6,
+            "name": "简书",
+            "url": "https://www.jianshu.com/u/bc459a0682a0",
+            "logo": "jianshu"
+        },
+        {
+            "id": 7,
+            "name": "CSDN",
+            "url": "https://blog.csdn.net/hjx13824339381",
+            "logo": "csdn"
+        },
+        {
+            "id": 8,
+            "name": "豆瓣",
+            "url": "https://www.douban.com/people/hjx24/",
+            "logo": "douban"
+        },
+        {
+            "id": 9,
+            "name": "百度贴吧",
+            "url": "http://tieba.baidu.com/home/main?un=%E6%B2%A1%E6%9C%89%E5%A4%A9%E7%90%86%E7%9A%84%E5%AE%B6%E4%B9%A1",
+            "logo": "tieba"
+        },
+        {
+            "id": 10,
+            "name": "Google",
+            "url": "https://www.google.com",
+            "logo": "google"
+        },
+        {
+            "id": 11,
+            "name": "Twitter",
+            "url": "https://twitter.com/huangjx6",
+            "logo": "twitter"
+        },
+        {
+            "id": 12,
+            "name": "Facebook",
+            "url": "https://www.facebook.com/chinahuangjx",
+            "logo": "facebook"
+        },
+        {
+            "id": 13,
+            "name": "微博",
+            "url": "https://weibo.com/1075521173",
+            "logo": "weibo"
+        },
+        {
+            "id": 14,
+            "name": "网易云音乐",
+            "url": "https://music.163.com/#/user/home?id=100940618",
+            "logo": "wangyiyunmusic"
+        },
+        {
+            "id": 15,
+            "name": "百度网盘",
+            "url": "https://pan.baidu.com/share/home?uk=2118033756&suk=70vad7zxNBu7yJbFxK_oWw#category/type=0",
+            "logo": "baiduyun"
+        },
+        {
+            "id": 16,
+            "name": "OUTLOOK",
+            "url": "mailto:chinahuangjx@outlook.com",
+            "logo": "outlook"
+        },
+        {
+            "id": 17,
+            "name": "Gmail",
+            "url": "mailto:chinahuangjx@gmail.com",
+            "logo": "gmail"
+        },
+        {
+            "id": 18,
+            "name": "126邮箱",
+            "url": "mailto:chinahuangjx@126.com",
+            "logo": "youxiang"
         }
     ]
 }
