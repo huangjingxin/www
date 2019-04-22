@@ -12,6 +12,7 @@
 - tailwindcss
 - iconfont
 - 响应式
+- PWA
 
 ## 关于
 
