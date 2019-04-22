@@ -156,8 +156,8 @@
             </div>
 
             <!-- 社交软件 -->
-            <div class="flex flex-row justify-center mt-8 hidden xl:block">
-                <ul class="flex flex-row flex-wrap content-center list-reset w-5/6">
+            <div class="flex flex-row justify-center mt-8">
+                <ul class="flex flex-row justify-center flex-wrap list-reset w-full">
                     <li v-for="app in socials" :key="app.id" class="w-8 h-8 mx-1 mt-2">
                         <a :href="app.url" target="_blank" class="block h-full w-full">
                             <img :src="`./image/app/${app.logo}.png`" :alt="app.logo" :title="app.name" class="rounded">
@@ -167,18 +167,18 @@
             </div>
 
             <!-- 备案信息 -->
-            <div class="flex flex-col md:flex-row items-center mt-12">
+            <div class="flex flex-col md:flex-row justify-center items-center mt-12">
                 <p class="text-sm md:mr-4 py-1" style="color:#939393;">Copyright©2019 黄敬鑫</p>
                 <p class="md:mr-8 py-1">
                     <span class="text-sm">粤ICP备18112952号-1</span>
                     <!-- cnzz 站点统计 -->
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
                         document.write(unescape("%3Cspan id='cnzz_stat_icon_1277114138'%3E%3C/span%3E%3Cscript src='" +
                             cnzz_protocol +
                             "s5.cnzz.com/z_stat.php%3Fid%3D1277114138%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"
                         ));
-                    </script>
+                    </script> -->
                 </p>
                 <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001145"
                     class="py-2">
@@ -228,7 +228,7 @@
             }
         })
     </script>
-    <script src="./sw.js"></script>
+    <!-- <script src="./sw.js"></script> -->
 
 </body>
 
