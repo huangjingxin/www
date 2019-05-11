@@ -158,7 +158,7 @@
             <!-- 社交软件 -->
             <div class="flex flex-row justify-center mt-8">
                 <ul class="flex flex-row justify-center flex-wrap list-reset w-full">
-                    <li v-for="app in socials" :key="app.id" class="w-8 h-8 mx-1 mt-2">
+                    <li v-for="(app,index) in socials" :key="index" class="w-8 h-8 mx-1 mt-2">
                         <a :href="app.url" target="_blank" class="block h-full w-full">
                             <img :src="`./image/app/${app.logo}.png`" :alt="app.logo" :title="app.name" class="rounded">
                         </a>
