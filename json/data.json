@@ -1,10 +1,8 @@
 {
-    "site": [
-        {
+    "site": [{
             "icon": "icon-tuijianxiangmu",
             "name": "推荐",
-            "lists": [
-                {
+            "lists": [{
                     "name": "AnyKnew",
                     "description": "热搜榜聚合，高效读新闻",
                     "url": "https://www.anyknew.com/#/",
@@ -28,8 +26,7 @@
         {
             "icon": "icon-xinwen",
             "name": "资讯",
-            "lists": [
-                {
+            "lists": [{
                     "name": "微博热搜榜",
                     "description": "微博热搜",
                     "url": "https://s.weibo.com/top/summary",
@@ -71,8 +68,7 @@
         {
             "icon": "icon-app-store-ios",
             "name": "软件",
-            "lists": [
-                {
+            "lists": [{
                     "name": "腾讯软件中心",
                     "description": "海量，高速，无毒",
                     "url": "https://pc.qq.com",
@@ -102,8 +98,7 @@
         {
             "icon": "icon-windows",
             "name": "系统",
-            "lists": [
-                {
+            "lists": [{
                     "name": "MSDN",
                     "description": "微软原版操作系统",
                     "url": "https://msdn.itellyou.cn",
@@ -139,8 +134,7 @@
         {
             "icon": "icon-dianying",
             "name": "影音",
-            "lists": [
-                {
+            "lists": [{
                     "name": "80s电影网",
                     "description": "看剧不花钱",
                     "url": "https://www.80s.la",
@@ -164,8 +158,7 @@
         {
             "icon": "icon-shu",
             "name": "阅读",
-            "lists": [
-                {
+            "lists": [{
                     "name": "鸠摩搜索",
                     "description": "名著小说，多种格式",
                     "url": "https://www.jiumodiary.com",
@@ -182,6 +175,12 @@
                     "description": "小说网站，追更必备",
                     "url": "https://www.biquge5200.cc",
                     "logo": "biquge5200.png"
+                },
+                {
+                    "name": "来漫画",
+                    "description": "漫画网站，追更必备",
+                    "url": "https://www.laimanhua.com/",
+                    "logo": "laimanhua.png"
                 }
             ],
             "id": "5"
@@ -189,8 +188,7 @@
         {
             "icon": "icon-gongjuxiang",
             "name": "工具",
-            "lists": [
-                {
+            "lists": [{
                     "name": "蓝灯",
                     "description": "每当看不清的时候，你就需要一盏灯",
                     "url": "https://getlantern.org/zh_CN/index.html",
@@ -262,8 +260,7 @@
         {
             "icon": "icon-sucaiku",
             "name": "素材",
-            "lists": [
-                {
+            "lists": [{
                     "name": "iconfont",
                     "description": "阿里巴巴矢量图标库",
                     "url": "https://www.iconfont.cn",
@@ -276,16 +273,22 @@
                     "logo": "easyicon.png"
                 },
                 {
+                    "name": "花瓣网",
+                    "description": "图片素材",
+                    "url": "https://huaban.com",
+                    "logo": "huaban.png"
+                },
+                {
                     "name": "Google Fonts",
                     "description": "谷歌字体",
                     "url": "https://fonts.google.com",
                     "logo": "google-fonts.png"
                 },
                 {
-                    "name": "花瓣网",
-                    "description": "图片素材",
-                    "url": "https://huaban.com",
-                    "logo": "huaban.png"
+                    "name": "方正字库",
+                    "description": "国内成立较早的专业字库公司",
+                    "url": "http://www.foundertype.com/",
+                    "logo": "foundertype.png"
                 }
             ],
             "id": "7"
@@ -293,8 +296,7 @@
         {
             "icon": "icon-weibiaoti35",
             "name": "产品",
-            "lists": [
-                {
+            "lists": [{
                     "name": "人人都是产品经理",
                     "description": "产品经理、产品爱好者学习交流平台",
                     "url": "http://www.woshipm.com",
@@ -312,8 +314,7 @@
         {
             "icon": "icon-xueshimao",
             "name": "教程",
-            "lists": [
-                {
+            "lists": [{
                     "name": "菜鸟教程",
                     "description": "学的不仅是技术，更是梦想！",
                     "url": "http://www.runoob.com",
@@ -337,8 +338,7 @@
         {
             "icon": "icon-shizhong",
             "name": "临时",
-            "lists": [
-                {
+            "lists": [{
                     "name": "云短信",
                     "description": "临时接收验证码，避免信息泄露",
                     "url": "https://www.pdflibr.com",
@@ -362,8 +362,7 @@
         {
             "icon": "icon-jiaolian1",
             "name": "博主",
-            "lists": [
-                {
+            "lists": [{
                     "name": "阮一峰",
                     "description": "互联网网红，前端大神",
                     "url": "http://www.ruanyifeng.com/",
@@ -399,8 +398,7 @@
         {
             "icon": "icon-ai-code",
             "name": "编程",
-            "lists": [
-                {
+            "lists": [{
                     "name": "Github",
                     "description": "程序员的天堂",
                     "url": "https://github.com",
@@ -448,8 +446,7 @@
         {
             "icon": "icon-rss",
             "name": "RSS",
-            "lists": [
-                {
+            "lists": [{
                     "name": "RSSHub",
                     "description": "RSS订阅源",
                     "url": "https://docs.rsshub.app",
@@ -483,8 +480,7 @@
             "id": "13"
         }
     ],
-    "app": [
-        {
+    "app": [{
             "name": "QQ",
             "url": "http://wpa.qq.com/msgrd?v=3&uin=1443511743&site=qq&menu=yes",
             "logo": "qq"
