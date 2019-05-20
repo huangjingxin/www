@@ -19,6 +19,12 @@
                     "description": "小说网站，追更必备",
                     "url": "https://www.biquge5200.cc",
                     "logo": "biquge5200.png"
+                },
+                {
+                    "name": "来漫画",
+                    "description": "漫画网站，追更必备",
+                    "url": "https://www.laimanhua.com/",
+                    "logo": "laimanhua.png"
                 }
             ],
             "id": "0"
