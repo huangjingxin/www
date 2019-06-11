@@ -1,6 +1,6 @@
 # 导航网站
 
-> 参照[大神-轻狂志](http://www.duoluole.com)做的网址导航
+> 参照 [大神-轻狂志](http://www.duoluole.com) 做的网址导航
 
 ## 预览
 
@@ -24,4 +24,4 @@
 
 前端水平还在入门阶段，欢迎添加好友学习交流。
 
-![qrcode](./image/about/qrcode.png)
+![qrcode](./image/about/qrcode-400.png)
