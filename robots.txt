@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /resume/
+Allow: /
+
+Sitemap: https://www.hjx24.com/
