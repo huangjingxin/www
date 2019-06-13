@@ -13,6 +13,7 @@
 - iconfont
 - 响应式
 - PWA 
+- 搜索
 
 ## 关于
 
@@ -24,4 +25,4 @@
 
 前端水平还在入门阶段，欢迎添加好友学习交流。
 
-![qrcode](./image/about/qrcode-400.png)
+![qrcode](./image/about/qrcode.png)
