@@ -1,4 +1,4 @@
-let app = new Vue({
+new Vue({
     el: '#app',
     data: {
         sites: [],
@@ -8,7 +8,7 @@ let app = new Vue({
         focus: false,
         input: '',
         results: [],
-        view: [],
+        view: [], // results 中可见元素的 index
         id: 0,
     },
     created() {
@@ -26,7 +26,7 @@ let app = new Vue({
                 this.apps = data;
             });
         // 初始化 view 数组
-        this.view = Array.from(new Array(Math.floor(window.innerHeight * 0.8 / 130)).keys());
+        this.view = Array.from(new Array(Math.floor(window.innerHeight * 0.8 / 130) - 1).keys());
     },
     methods: {
         open(url) {
@@ -40,7 +40,6 @@ let app = new Vue({
             }
         },
         search(keyword) {
-            this.results = [];
             this.sites.forEach(x => {
                 x.lists.forEach((i) => {
                     if (i.search.join().indexOf(keyword) > -1) {
@@ -50,16 +49,11 @@ let app = new Vue({
             })
         },
         inputEnter() {
-            this.open(this.results[this.id].url);
-            this.id = 0;
             this.input = '';
-            this.results = [];
+            this.open(this.results[this.id].url);
         },
         inputEsc() {
-            this.results = [];
-            this.id = 0;
             this.input = '';
-            this.resetView();
         },
         inputUp() {
             if (this.id === 0) {
@@ -78,24 +72,28 @@ let app = new Vue({
             } else {
                 this.id += 1;
                 if (this.view.indexOf(this.id) === -1) {
-                    let str = 'result-' + (this.id - this.view.length)
-                    document.getElementById(str).scrollIntoView();
+                    document.getElementById('result-' + (this.id - this.view.length)).scrollIntoView();
                     this.view = this.view.map(x => x + 1)
                 }
             }
         },
         resetView() {
             // 重置数组
-            this.view = this.view.map((x, index) => x[index] = index)
+            this.view = this.view.map((x, index) => x[index] = index);
         }
     },
     watch: {
         input: function (newInput, oldInput) {
-            newInput = newInput.trim();
-            newInput = newInput.toLowerCase();
+            this.id = 0;
+            this.results = [];
+            this.resetView();
+            // 滚动条 回到顶部
+            setTimeout(() => {
+                document.getElementById("search-result-box-top").scrollIntoView();
+            }, 50)
+            newInput = newInput.trim().toLowerCase();
             if (newInput) {
                 this.search(newInput);
-                this.resetView();
             }
         }
     }

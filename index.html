@@ -13,8 +13,8 @@
     <meta name="apple-mobile-web-app-title" content="黄敬鑫导航">
     <link rel="apple-touch-icon" href="pwa/icons/logo-256.png">
     <!-- module & icon -->
-    <link href="./module/tailwindcss.min.css" rel="stylesheet">
     <script src="./module/vue.min.js"></script>
+    <link href="./module/tailwindcss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./module/iconfont/iconfont.css">
 
     <title>黄敬鑫导航</title>
@@ -75,6 +75,8 @@
         <!-- 右边栏 -->
         <div class="flex-1">
 
+
+
             <!-- 搜索栏 -->
             <div class="w-full h-16 hidden sm:block">
 
@@ -95,47 +97,51 @@
                         </div>
 
                         <!-- 搜索引导 搜索框后面那个问号 -->
-                        <div class="relative w-8 h-8 flex flex-row justify-center items-center cursor-pointer"
-                            id="search-guide">
-                            <span class="iconfont icon-wenhao"></span>
+                        <div class="w-8 h-8 flex flex-row justify-center items-center cursor-pointer" id="search-guide">
+                            <span class="iconfont icon-wenhao relative">
 
-                            <div id="search-guide-absolute">
+                                <div id="search-guide-absolute">
 
-                                <div id="search-guide-outer" class="border shadow rounded bg-white">
-                                    <div class="w-full h-full overflow-y-scroll p-4 cursor-text text-sm z-20"
-                                        id="search-guide-show">
-                                        <h2 class="font-bold text-base mb-1">善用搜索，事半功倍</h2>
+                                    <div id="search-guide-outer" class="border shadow rounded bg-white">
+                                        <div class="w-full h-full overflow-y-scroll p-4 cursor-text text-sm z-20"
+                                            id="search-guide-show">
+                                            <h2 class="font-bold text-base mb-1">善用搜索，事半功倍</h2>
 
-                                        <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">关键词</h3>
-                                        <p>搜索索引由 <span class="text-red-500">名字、描述、域名和一些常用词汇</span> 组成。</p>
-                                        <p class="mt-2">比如「英雄联盟」的关键词：</p>
-                                        <div class="flex flex-row mt-1">
-                                            <p class="w-20 text-center">"英雄联盟"</p>
-                                            <p class="w-20 text-center">"qq"</p>
-                                            <p class="w-20 text-center">"lol"</p>
+                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">关键词</h3>
+                                            <p>搜索索引由 <span class="text-red-500">名字、描述、域名和一些常用词汇</span> 组成。</p>
+                                            <p class="mt-2">比如「英雄联盟」的关键词：</p>
+                                            <div class="flex flex-row mt-1">
+                                                <p class="w-20 text-center">"英雄联盟"</p>
+                                                <p class="w-20 text-center">"qq"</p>
+                                                <p class="w-20 text-center">"lol"</p>
+                                            </div>
+                                            <p class="mt-2 ml-2">"老兵不死，只是凋零"</p>
+
+                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">快捷键</h3>
+                                            <p> <span class="inline-block w-16">Enter：</span>选择第一个搜索结果</p>
+                                            <p> <span class="inline-block w-16">Esc：</span>清除输入内容和搜索结果</p>
+                                            <p> <span class="inline-block w-16">Up：</span>选择搜索结果</p>
+                                            <p> <span class="inline-block w-16">Down：</span>选择搜索结果</p>
+
+                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">说明</h3>
+                                            <p> <span class="inline-block w-20">兼容性：</span>不支持 IE 和 firefox</p>
+                                            <p> <span class="inline-block w-20">PWA：</span>请手动更新缓存</p>
+                                            <p> <span class="inline-block w-20">离线：</span>离线访问,有点卵用</p>
+                                            <p class="mt-4 ml-8 text-gray-500">不要问为什么，就是这么任性</p>
                                         </div>
-                                        <p class="mt-2 ml-2">"老兵不死，只是凋零"</p>
-
-                                        <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">快捷键</h3>
-                                        <p> <span class="inline-block w-16">Enter：</span>选择第一个搜索结果</p>
-                                        <p> <span class="inline-block w-16">Esc：</span>清除输入内容和搜索结果</p>
-                                        <p> <span class="inline-block w-16">Up：</span>选择搜索结果</p>
-                                        <p> <span class="inline-block w-16">Down：</span>选择搜索结果</p>
-
-                                        <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">说明</h3>
-                                        <p> <span class="inline-block w-20">搜索结果：</span>只有 6 个</p>
-                                        <p> <span class="inline-block w-20">兼容性：</span>不支持 IE 和 firefox</p>
-                                        <p class="mt-4 ml-8 text-gray-500">不要问为什么，就是这么任性</p>
                                     </div>
                                 </div>
-                            </div>
+                            </span>
+
                         </div>
                     </div>
 
+                    
                     <!-- 搜索结果 -->
                     <div class="relative bg-teal-500" v-show="results.length&&focus">
                         <div class="absolute shadow-xl border rounded" id="search-result-absolute">
                             <div class="overflow-y-scroll h-full pr-4 mr-1 z-30" id="search-result-box">
+                                <div id="search-result-box-top" class="h-0 w-full"></div>
                                 <div v-for="(result,index) in results">
 
                                     <div style="min-width:80px" @mouseover="id=index" @click="open(result.url)"
@@ -160,6 +166,12 @@
                 </div>
             </div>
 
+
+
+
+
+
+
             <!-- 主体 -->
             <div class="sm:p-8" style="background-color:#f7f7f7">
                 <div v-for="(type,index) in sites">
@@ -179,7 +191,7 @@
                                         class="w-full h-full rounded">
                                 </div>
 
-                                <div class="flex flex-col overflow-hidden">
+                                <div class="flex flex-col w-full overflow-hidden">
                                     <span
                                         class="font-bold text-sm whitespace-no-wrap sm:truncate text-center mt-2 sm:text-left">{{list.name}}</span>
                                     <span
@@ -190,6 +202,11 @@
                         </div>
                     </div>
                 </div>
+
+
+
+
+
 
                 <!-- 关于本站 -->
                 <div class="mt-8 bg-white p-6 text-gray-700" id="about">
@@ -216,6 +233,11 @@
                     </div>
                 </div>
 
+
+
+
+
+
                 <!-- 社交软件 -->
                 <div class="flex flex-row justify-center mt-8">
                     <ul class="flex flex-row justify-center flex-wrap list-reset w-full">
@@ -227,6 +249,11 @@
                         </li>
                     </ul>
                 </div>
+
+
+
+
+
 
                 <!-- 备案信息 -->
                 <div class="flex flex-col md:flex-row justify-center items-center mt-12">
@@ -255,8 +282,11 @@
                 </div>
 
 
+
+
+
             </div>
-            
+
         </div>
 
     </div>
