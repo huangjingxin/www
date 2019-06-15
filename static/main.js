@@ -42,7 +42,7 @@ new Vue({
         search(keyword) {
             this.sites.forEach(x => {
                 x.lists.forEach((i) => {
-                    if (i.search.join().indexOf(keyword) > -1) {
+                    if (i.search.some(x => x.indexOf(keyword) > -1)) {
                         this.results.push(i);
                     }
                 })
