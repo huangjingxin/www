@@ -8,8 +8,8 @@ new Vue({
         focus: false,
         input: '',
         results: [],
-        view: [], // results 中可见元素的 index
-        id: 0,
+        results_view: [], // results 中可见元素的 index 组成的 arr
+        id: 0, // results 中 hover 元素的 id
     },
     created() {
         if (document.documentElement.clientWidth > 567) {
@@ -25,8 +25,8 @@ new Vue({
             .then(data => {
                 this.apps = data;
             });
-        // 初始化 view 数组
-        this.view = Array.from(new Array(Math.floor(window.innerHeight * 0.8 / 130) - 1).keys());
+        // 初始化 results_view 数组
+        this.results_view = Array.from(new Array(Math.floor(window.innerHeight * 0.8 / 130) - 1).keys());
     },
     methods: {
         open(url) {
@@ -42,7 +42,7 @@ new Vue({
         search(keyword) {
             this.sites.forEach(x => {
                 x.lists.forEach((i) => {
-                    if (i.search.some(x => x.indexOf(keyword) > -1)) {
+                    if (i.search.some(x => x.includes(keyword))) {
                         this.results.push(i);
                     }
                 })
@@ -60,9 +60,9 @@ new Vue({
                 this.id = 0
             } else {
                 this.id -= 1;
-                if (this.view.indexOf(this.id) === -1) {
+                if (this.results_view.indexOf(this.id) === -1) {
                     document.getElementById('result-' + this.id).scrollIntoView();
-                    this.view = this.view.map(x => x - 1)
+                    this.results_view = this.results_view.map(x => x - 1)
                 }
             }
         },
@@ -71,15 +71,15 @@ new Vue({
                 this.id = this.results.length - 1
             } else {
                 this.id += 1;
-                if (this.view.indexOf(this.id) === -1) {
-                    document.getElementById('result-' + (this.id - this.view.length)).scrollIntoView();
-                    this.view = this.view.map(x => x + 1)
+                if (this.results_view.indexOf(this.id) === -1) {
+                    document.getElementById('result-' + (this.id - this.results_view.length)).scrollIntoView();
+                    this.results_view = this.results_view.map(x => x + 1)
                 }
             }
         },
         resetView() {
             // 重置数组
-            this.view = this.view.map((x, index) => x[index] = index);
+            this.results_view = this.results_view.map((x, index) => x[index] = index);
         }
     },
     watch: {

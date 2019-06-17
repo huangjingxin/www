@@ -122,9 +122,9 @@
     "lists": [{
         "name": "蓝灯",
         "description": "每当看不清的时候，你就需要一盏灯",
-        "url": "https://getlantern.org/zh_CN/index.html",
+        "url": "https://getlantern.com/zh_CN/index.html",
         "logo": "lantern.ico",
-        "search": ["lantern", "蓝灯", "每当看不清的时候，你就需要一盏灯", "科学上网", "翻墙"]
+        "search": ["lantern", "蓝灯", "每当看不清的时候，你就需要一盏灯", "科学上网", "翻墙","梯子"]
     }, {
         "name": "浏览器拓展",
         "description": "谷歌浏览器拓展程序",
