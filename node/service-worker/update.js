@@ -42,7 +42,7 @@ async function update() {
 
     fs.writeFile('./sw.js', data, (err) => {
         if (err) throw err;
-        console.log('sw.js 已更新');
+        console.log('\t sw.js 已更新');
     });
 
     // console.log(data)

@@ -26,7 +26,7 @@ fs.readFile('./data/site.json', 'utf-8', (err, data) => {
     sites = JSON.stringify(sites);
     fs.writeFile('./data/site.json', sites, (err) => {
         if (err) throw err;
-        console.log('data/site.json 已更新');
+        console.log('\t data/site.json 已更新');
     });
     // console.log(sites);
 })

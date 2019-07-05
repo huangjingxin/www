@@ -14,8 +14,8 @@
         "logo": "zhihu.png",
         "search": ["zhihu", "知乎热榜", "知乎热搜", "排行榜"]
     }, {
-        "name": "Github Trending",
-        "description": "github 排行榜",
+        "name": "GitHub Trending",
+        "description": "GitHub 排行榜",
         "url": "https://github.com/trending",
         "logo": "github.png",
         "search": ["github", "github trending", "github 排行榜"]
@@ -50,7 +50,7 @@
     }, {
         "name": "电影盒子",
         "description": "免费电影",
-        "url": "http://www.5iwanyouxi.com",
+        "url": "http://tv3box.com/",
         "logo": "5iwanyouxi.png",
         "search": ["5iwanyouxi", "电影盒子", "免费电影"]
     }, {
@@ -105,7 +105,7 @@
         "search": ["blizzard-hs", "炉石传说", "卡牌游戏"]
     }, {
         "name": "Steam",
-        "description": "Steam游戏平台",
+        "description": "Steam 游戏平台",
         "url": "https://store.steampowered.com/",
         "logo": "steampowered.ico",
         "search": ["steampowered", "steam", "steam游戏平台"]
@@ -205,7 +205,7 @@
         "name": "易破解",
         "description": "给你所需要的内容",
         "url": "http://www.ypojie.com/",
-        "logo": "ypojie.ico",
+        "logo": "ypojie.png",
         "search": ["ypojie", "易破解", "给你所需要的内容"]
     }, {
         "name": "老殁",
@@ -221,10 +221,10 @@
         "search": ["flighty", "轻狂志", "破解软件，质量高，好的资源要进收费群"]
     }, {
         "name": "龋齿一号",
-        "description": "破解软件 资源素材 Adobe全家桶",
+        "description": "破解软件 资源素材 Adobe 全家桶",
         "url": "http://www.gfxcamp.com/",
         "logo": "gfxcamp.ico",
-        "search": ["gfxcamp", "龋齿一号", "破解软件 资源素材 adobe全家桶"]
+        "search": ["gfxcamp", "龋齿一号", "破解软件 资源素材 adobe 全家桶"]
     }]
 }, {
     "icon": "icon-windows",
@@ -234,22 +234,22 @@
         "description": "微软原版操作系统",
         "url": "https://msdn.itellyou.cn",
         "logo": "itellyou.png",
-        "search": ["itellyou", "msdn", "微软原版操作系统", "windows"]
+        "search": ["itellyou", "msdn", "微软原版操作系统", "windows","office"]
     }, {
         "name": "阿里开源镜像站",
-        "description": "高速下载各种Linux",
+        "description": "高速下载各种 Linux",
         "url": "https://opsx.alibaba.com",
         "logo": "alibaba-opsx.png",
-        "search": ["alibaba-opsx", "阿里开源镜像站", "高速下载各种linux"]
+        "search": ["alibaba-opsx", "阿里开源镜像站", "高速下载各种 linux"]
     }, {
         "name": "微PE工具箱",
-        "description": "傻瓜式装Windows系统",
+        "description": "傻瓜式装 Windows 系统",
         "url": "http://www.wepe.com.cn",
         "logo": "wepe.png",
         "search": ["wepe", "微pe工具箱", "傻瓜式装windows系统"]
     }, {
         "name": "Rufus",
-        "description": "轻松创建USB启动盘",
+        "description": "轻松创建 USB 启动盘",
         "url": "https://rufus.ie",
         "logo": "rufus.png",
         "search": ["rufus", "rufus", "轻松创建usb启动盘", "windows", "linux"]
@@ -346,20 +346,20 @@
     "lists": [{
         "name": "阮一峰",
         "description": "互联网网红，前端大神",
-        "url": "http://www.ruanyifeng.com/",
-        "logo": "ruanyifeng.png",
+        "url": "http://www.ruanyifeng.com/blog/",
+        "logo": "ruanyifeng.jpg",
         "search": ["ruanyifeng", "阮一峰", "互联网网红，前端大神", "es6"]
     }, {
         "name": "廖雪峰",
         "description": "免费教程，面向初学者",
         "url": "https://www.liaoxuefeng.com",
-        "logo": "liaoxuefeng.png",
+        "logo": "liaoxuefeng.ico",
         "search": ["liaoxuefeng", "廖雪峰", "免费教程，面向初学者", "javascript", "java", "git教程", "python", "sql"]
     }, {
         "name": "张鑫旭",
         "description": "专注 CSS 的前端大神",
         "url": "https://www.zhangxinxu.com",
-        "logo": "zhangxinxu.png",
+        "logo": "zhangxinxu.jpg",
         "search": ["zhangxinxu", "张鑫旭", "专注 css 的前端大神"]
     }, {
         "name": "奔跑中的奶酪",
@@ -412,14 +412,14 @@
     "icon": "icon-ai-code",
     "name": "编程",
     "lists": [{
-        "name": "Github",
+        "name": "GitHub",
         "description": "程序员的天堂",
         "url": "https://github.com",
         "logo": "github.png",
         "search": ["github", "github", "程序员的天堂"]
     }, {
         "name": "码云",
-        "description": "国内版 Github",
+        "description": "国内版 GitHub",
         "url": "https://gitee.com",
         "logo": "gitee.png",
         "search": ["gitee", "码云", "国内版 github"]
@@ -430,7 +430,7 @@
         "logo": "docschina.png",
         "search": ["docschina", "印记中文", "前端知识库，中文文档", "翻译"]
     }, {
-        "name": "Bootstrap中文网",
+        "name": "Bootstrap 中文网",
         "description": "前端开源工具包",
         "url": "http://www.bootcss.com",
         "logo": "bootcss.png",
@@ -443,12 +443,12 @@
         "search": ["bootcdn", "bootcdn", "开源 免费 cdn"]
     }, {
         "name": "BUNDLEPHOBIA",
-        "description": "NPM包大小检查",
+        "description": "NPM 包大小检查",
         "url": "https://bundlephobia.com",
         "logo": "bundlephobia.png",
         "search": ["bundlephobia", "bundlephobia", "npm包大小检查"]
     }, {
-        "name": "web.dev",
+        "name": "WEB.DEV",
         "description": "网页性能检测",
         "url": "https://web.dev",
         "logo": "dev-web.png",
@@ -481,19 +481,19 @@
     "name": "RSS",
     "lists": [{
         "name": "RSSHub",
-        "description": "RSS订阅源",
+        "description": "RSS 订阅源",
         "url": "https://docs.rsshub.app",
         "logo": "rsshub.png",
         "search": ["rsshub", "rsshub", "rss订阅源"]
     }, {
         "name": "Inoreader",
-        "description": "同步RSS源，在线阅读，中文界面",
+        "description": "同步 RSS 源，在线阅读，中文界面",
         "url": "https://www.inoreader.com/?lang=zh_CN",
         "logo": "inoreader.png",
         "search": ["inoreader", "inoreader", "同步rss源，在线阅读，中文界面"]
     }, {
         "name": "Feeder",
-        "description": "在线RSS阅读，英文界面",
+        "description": "在线 RSS 阅读，英文界面",
         "url": "https://feeder.co/reader",
         "logo": "feeder.png",
         "search": ["feeder", "feeder", "在线rss阅读，英文界面"]
@@ -505,7 +505,7 @@
         "search": ["rss-feed-reader", "rss feed reader", "rss chrome 插件"]
     }, {
         "name": "Reeder",
-        "description": "IOS&MAC阅读器",
+        "description": "IOS&MAC 阅读器",
         "url": "http://reederapp.com",
         "logo": "reederapp.png",
         "search": ["reederapp", "reeder", "ios&mac阅读器"]

@@ -12,15 +12,15 @@ let cacheFiles = [
     './image/favicon.ico',
     './image/logo.png',
 
-    './module/iconfont/iconfont.css',
-    './module/iconfont/iconfont.eot',
-    './module/iconfont/iconfont.js',
-    './module/iconfont/iconfont.svg',
-    './module/iconfont/iconfont.ttf',
-    './module/iconfont/iconfont.woff',
-    './module/iconfont/iconfont.woff2',
-    './module/tailwindcss.min.css',
-    './module/vue.min.js',
+    './cdn/iconfont/iconfont.css',
+    './cdn/iconfont/iconfont.eot',
+    './cdn/iconfont/iconfont.js',
+    './cdn/iconfont/iconfont.svg',
+    './cdn/iconfont/iconfont.ttf',
+    './cdn/iconfont/iconfont.woff',
+    './cdn/iconfont/iconfont.woff2',
+    './cdn/tailwindcss.min.css',
+    './cdn/vue.min.js',
 
     './pwa/icons/logo-32.png',
     './pwa/icons/logo-72.png',
@@ -67,20 +67,20 @@ this.addEventListener('activate', function (event) {
 this.addEventListener('fetch', function (event) {
     event.respondWith(
         caches.match(event.request)
-        .then(function (response) {
-            if (response) {
-                // console.log('fetch ', event.request.url, '有缓存，从缓存中取');
-                return response;
-            } else {
-                // console.log('fetch ', event.request.url, '没有缓存，网络获取');
-                return fetch(event.request)
-                    .then(function (response) {
-                        return caches.open(VERSION).then(function (cache) {
-                            cache.put(event.request, response.clone());
-                            return response;
+            .then(function (response) {
+                if (response) {
+                    // console.log('fetch ', event.request.url, '有缓存，从缓存中取');
+                    return response;
+                } else {
+                    // console.log('fetch ', event.request.url, '没有缓存，网络获取');
+                    return fetch(event.request)
+                        .then(function (response) {
+                            return caches.open(VERSION).then(function (cache) {
+                                cache.put(event.request, response.clone());
+                                return response;
+                            })
                         })
-                    })
-            }
-        })
+                }
+            })
     )
 });
