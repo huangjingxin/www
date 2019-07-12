@@ -37,50 +37,40 @@ let cacheFiles = [
 ];
 
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').then(function () {
-        // console.log('1. Service Worker 注册成功');
-    });
+    navigator.serviceWorker.register('./sw.js')
+        .then(
+            success => console.log('1. Service Worker 注册成功')
+        ).catch(
+            err => console.log(`注册失败，err：${err}`)
+        );
 }
 
-this.addEventListener('install', function (event) {
-    // console.log('2. 安装 sw.js');
+self.addEventListener('install', function (event) {
+    console.log('2. 安装 sw.js');
     event.waitUntil(
-        caches.open(VERSION).then(function (cache) {
-            return cache.addAll(cacheFiles);
-        })
+        caches.open(VERSION)
+            .then(cache => cache.addAll(cacheFiles))
     )
 });
 
-this.addEventListener('activate', function (event) {
-    // console.log('3. 激活 sw.js，可以开始处理 fetch 请求。');
+self.addEventListener('activate', function (event) {
+    console.log('3. 激活 sw.js，可以开始处理 fetch 请求。');
     event.waitUntil(
-        caches.keys().then(function (keyList) {
-            return Promise.all(keyList.map(function (key) {
+        caches.keys().then(keys => {
+            return Promise.all(keys.map((key, index) => {
                 if (VERSION.indexOf(key) === -1) {
-                    return caches.delete(key);
+                    return caches.delete(key[index]);
                 }
             }))
         })
     )
 });
 
-this.addEventListener('fetch', function (event) {
+self.addEventListener('fetch', function (event) {
     event.respondWith(
         caches.match(event.request)
-            .then(function (response) {
-                if (response) {
-                    // console.log('fetch ', event.request.url, '有缓存，从缓存中取');
-                    return response;
-                } else {
-                    // console.log('fetch ', event.request.url, '没有缓存，网络获取');
-                    return fetch(event.request)
-                        .then(function (response) {
-                            return caches.open(VERSION).then(function (cache) {
-                                cache.put(event.request, response.clone());
-                                return response;
-                            })
-                        })
-                }
+            .then(response => {
+                return response || fetch(event.request);
             })
     )
 });

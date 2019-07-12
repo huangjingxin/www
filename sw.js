@@ -51,7 +51,7 @@ self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(VERSION)
             .then(cache => cache.addAll(cacheFiles))
-            .then(_ => self.skipWaiting())  // 该函数可使新的sw.js马上生效。
+            //.then(_ => self.skipWaiting())  // 该函数可使新的sw.js马上生效。
     )
 });
 
