@@ -1,4 +1,4 @@
-# 导航网站
+# 网址导航
 
 > 参照 [大神-轻狂志](http://www.duoluole.com) 做的网址导航
 
@@ -8,9 +8,9 @@
 
 ## 技术
 
-- vue
-- tailwindcss
-- iconfont
+- Vue
+- Tailwind CSS
+- Iconfont
 - 响应式
 - PWA 
 - 搜索功能
