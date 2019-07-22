@@ -21,12 +21,12 @@
 
     <!-- ico & css -->
     <link rel="shortcut icon" href="./image/favicon.ico">
-    <link rel="stylesheet" href="./static/style.css">
+    <link rel="stylesheet" href="./static/main.css">
 </head>
 
 <body>
 
-    <div id="app" class="flex flex-col sm:flex-row">
+    <div id="app" class="flex flex-col sm:flex-row phone-w-screen phone-h-screen">
         <!-- 左边栏 -->
         <nav class="sm:min-h-screen w-full sm:w-12 lg:w-64">
             <div class="bg-wechat pin-t pin-l z-10 w-full sm:w-12 lg:w-64 md:block sm:min-h-screen text-white"
@@ -41,9 +41,9 @@
                         </p>
                     </div>
                     <div class="block sm:hidden">
-                        <span class="iconfont icon-shezhi mr-2" style="font-size:24px;"
+                        <span class="iconfont icon-config mr-2" style="font-size:24px;"
                             @click="isFixed=!isFixed"></span>
-                        <span class="iconfont icon-caidan" style="font-size:24px;" @click="showMenu=!showMenu"></span>
+                        <span class="iconfont icon-menu" style="font-size:24px;" @click="showMenu=!showMenu"></span>
                     </div>
                 </div>
 
@@ -64,7 +64,7 @@
 
                 <a v-show="showMenu" class="block flex flex-row justify-center mt-4 text-sm cursor-pointer text-white"
                     href="#about">
-                    <span class="iconfont icon-guanyuwomen mr-4 sm:mr-0 lg:mr-2"></span>
+                    <span class="iconfont icon-about mr-4 sm:mr-0 lg:mr-2"></span>
                     <span class="block sm:hidden lg:block">关于本站</span>
                 </a>
             </div>
@@ -81,53 +81,47 @@
             <div class="w-full h-16 hidden sm:block">
 
                 <div class="w-full fixed top-0 left-0 sm:pl-12 lg:pl-64 h-16 border-b flex flex-row justify-center items-center"
-                    style="background-color:rgba(250, 250, 250,0.9);">
+                    style="background-color:rgba(255, 255, 255, 0.98);">
 
                     <!-- 搜索框 -->
                     <div class="flex flex-row justify-center items-center h-10 bg-white border rounded text-gray-700"
                         id="search-outer">
                         <div class="w-8 h-8 flex flex-row justify-center items-center"><span
-                                class="iconfont icon-sousuo cursor-pointer"></span></div>
-                        <div class="h-10 bg-white" style="width:450px">
-                            <input
-                                class="appearance-none h-full w-full py-2 px-3 border-b border-t leading-tight focus:outline-none"
-                                id="search-input" type="text" placeholder="请输入关键词" v-model="input" @focus="focus = true"
+                                class="iconfont icon-search cursor-pointer"></span></div>
+                        <div class="bg-white" style="width:450px">
+                            <input class="h-full w-full focus:outline-none" id="search-input" type="text"
+                                placeholder="请输入关键词" v-model="input" @focus="focus = true"
                                 @blur="setTimeout(x => focus = false, 100)" @keyup.enter="inputEnter()"
                                 @keyup.esc="inputEsc()" @keyup.up="inputUp()" @keyup.down="inputDown()">
                         </div>
 
                         <!-- 搜索引导 搜索框后面那个问号 -->
                         <div class="w-8 h-8 flex flex-row justify-center items-center cursor-pointer" id="search-guide">
-                            <span class="iconfont icon-wenhao relative">
+                            <span class="iconfont icon-question relative">
 
                                 <div id="search-guide-absolute">
 
                                     <div id="search-guide-outer" class="border shadow rounded bg-white">
-                                        <div class="w-full h-full overflow-y-scroll p-4 cursor-text text-sm z-20"
+                                        <div class="w-full h-full p-4 cursor-text text-sm z-20"
                                             id="search-guide-show">
                                             <h2 class="font-bold text-base mb-1">善用搜索，事半功倍</h2>
 
-                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">关键词</h3>
-                                            <p>搜索索引由 <span class="text-red-500">名字、描述、域名和一些常用词汇</span> 组成。</p>
+                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: 15px">关键词</h3>
+                                            <p>搜索索引由 <span class="text-red-500">域名、名字、描述和一些常用词汇</span> 组成。</p>
                                             <p class="mt-2">比如「英雄联盟」的关键词：</p>
-                                            <div class="flex flex-row mt-1">
-                                                <p class="w-20 text-center">"英雄联盟"</p>
-                                                <p class="w-20 text-center">"qq"</p>
-                                                <p class="w-20 text-center">"lol"</p>
-                                            </div>
-                                            <p class="mt-2 ml-2">"老兵不死，只是凋零"</p>
+                                            <p class="mt-2">["qq-lol", "英雄联盟", "老兵不死，只是凋零", "lol", "游戏"]</p>
 
                                             <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">快捷键</h3>
-                                            <p> <span class="inline-block w-16">Enter：</span>选择第一个搜索结果</p>
+                                            <p> <span class="inline-block w-16">Enter：</span>进入第一个搜索结果</p>
                                             <p> <span class="inline-block w-16">Esc：</span>清除输入内容和搜索结果</p>
                                             <p> <span class="inline-block w-16">Up：</span>选择搜索结果</p>
                                             <p> <span class="inline-block w-16">Down：</span>选择搜索结果</p>
 
                                             <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">说明</h3>
-                                            <p> <span class="inline-block w-20">兼容性：</span>不支持 IE 和 firefox</p>
+                                            <p> <span class="inline-block w-20">兼容性：</span>不支持 IE 和 Firefox</p>
                                             <p> <span class="inline-block w-20">PWA：</span>请手动更新缓存</p>
                                             <p> <span class="inline-block w-20">离线：</span>可离线访问，有点卵用</p>
-                                            <p class="mt-4 ml-8 text-gray-500">不要问为什么，就是这么任性</p>
+                                            <p class="text-gray-500 mt-4 text-center">不要问为什么，就是这么任性</p>
                                         </div>
                                     </div>
                                 </div>
@@ -170,13 +164,11 @@
 
 
 
-
-
             <!-- 主体 -->
-            <div class="sm:p-8" style="background-color:#f7f7f7">
+            <div class="sm:p-8 phone-overflow-y-scroll" style="background-color:#f7f7f7">
                 <div v-for="(type,index) in sites">
                     <div class="pb-4 pt-6 pl-2 sm:ml-0" :id="index">
-                        <span class="iconfont icon-biaoqian"></span>
+                        <span class="iconfont icon-tag"></span>
                         <span class="">{{type.name}}</span>
                     </div>
 
@@ -211,7 +203,7 @@
                 <!-- 关于本站 -->
                 <div class="mt-8 bg-white p-6 text-gray-700" id="about">
                     <div class="pb-4 mt-4">
-                        <span class="iconfont icon-biaoqian"></span>
+                        <span class="iconfont icon-tag"></span>
                         <span class="">关于本站</span>
                     </div>
                     <div>
@@ -223,7 +215,7 @@
                     </div>
 
                     <div class="py-4 mt-2">
-                        <span class="iconfont icon-biaoqian"></span>
+                        <span class="iconfont icon-tag"></span>
                         <span class="">关于站长</span>
                     </div>
                     <div>
@@ -276,7 +268,7 @@
 
 
     <script src="./static/main.js"></script>
-    <script src="./sw.js"></script>
+    <!-- <script src="./sw.js"></script> -->
 
 </body>
 

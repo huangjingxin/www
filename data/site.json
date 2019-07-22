@@ -1,6 +1,6 @@
 [
     {
-        "icon": "icon-xinwen",
+        "icon": "icon-new",
         "name": "资讯",
         "lists": [
             {
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "icon": "icon-dianying",
+        "icon": "icon-movie",
         "name": "影音",
         "lists": [
             {
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "icon": "icon-shu",
+        "icon": "icon-book",
         "name": "阅读",
         "lists": [
             {
@@ -219,7 +219,7 @@
         ]
     },
     {
-        "icon": "icon-gongjuxiang",
+        "icon": "icon-tool",
         "name": "工具",
         "lists": [
             {
@@ -250,7 +250,7 @@
             },
             {
                 "name": "173应用网",
-                "description": "国内轻松下载chrome拓展",
+                "description": "国内轻松下载 Chrome 拓展",
                 "url": "https://173app.com/chrome-ext",
                 "logo": "173app.png",
                 "search": [
@@ -341,7 +341,7 @@
         ]
     },
     {
-        "icon": "icon-app",
+        "icon": "icon-appstore",
         "name": "软件",
         "lists": [
             {
@@ -502,7 +502,7 @@
         ]
     },
     {
-        "icon": "icon-weibiaoti35",
+        "icon": "icon-product",
         "name": "产品",
         "lists": [
             {
@@ -552,11 +552,11 @@
         ]
     },
     {
-        "icon": "icon-sucaiku",
+        "icon": "icon-material",
         "name": "素材",
         "lists": [
             {
-                "name": "iconfont",
+                "name": "Iconfont",
                 "description": "阿里巴巴矢量图标库",
                 "url": "https://www.iconfont.cn",
                 "logo": "iconfont.png",
@@ -647,7 +647,7 @@
         ]
     },
     {
-        "icon": "icon-jiaolian1",
+        "icon": "icon-bloger",
         "name": "博主",
         "lists": [
             {
@@ -714,7 +714,7 @@
         ]
     },
     {
-        "icon": "icon-xueshimao",
+        "icon": "icon-student",
         "name": "教程",
         "lists": [
             {
@@ -779,7 +779,7 @@
         ]
     },
     {
-        "icon": "icon-ai-code",
+        "icon": "icon-code",
         "name": "编程",
         "lists": [
             {
@@ -865,7 +865,7 @@
         ]
     },
     {
-        "icon": "icon-shizhong",
+        "icon": "icon-temp",
         "name": "临时",
         "lists": [
             {
