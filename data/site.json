@@ -841,17 +841,6 @@
                 ]
             },
             {
-                "name": "BUNDLEPHOBIA",
-                "description": "NPM 包大小检查",
-                "url": "https://bundlephobia.com",
-                "logo": "bundlephobia.png",
-                "search": [
-                    "bundlephobia",
-                    "bundlephobia",
-                    "npm包大小检查"
-                ]
-            },
-            {
                 "name": "WEB.DEV",
                 "description": "网页性能检测",
                 "url": "https://web.dev",
