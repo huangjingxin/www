@@ -31,7 +31,7 @@ let cacheFiles = [
     './pwa/manifest.json',
 
     './static/main.js',
-    './static/style.css',
+    './static/main.css',
 
     './sw.js',
 ];
