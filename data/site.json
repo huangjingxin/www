@@ -202,7 +202,7 @@
                 "search": [
                     "steampowered",
                     "steam",
-                    "steam游戏平台"
+                    "steam 游戏平台"
                 ]
             },
             {
@@ -256,7 +256,7 @@
                 "search": [
                     "173app",
                     "173应用网",
-                    "国内轻松下载chrome拓展"
+                    "国内轻松下载 chrome 拓展"
                 ]
             },
             {
@@ -408,7 +408,7 @@
                 "search": [
                     "dayanzai",
                     "大眼仔旭",
-                    "破解软件"
+                    "爱软件 爱汉化 爱分享"
                 ]
             },
             {
@@ -471,7 +471,7 @@
                 "search": [
                     "wepe",
                     "微pe工具箱",
-                    "傻瓜式装windows系统"
+                    "傻瓜式装 windows 系统"
                 ]
             },
             {
@@ -482,7 +482,7 @@
                 "search": [
                     "rufus",
                     "rufus",
-                    "轻松创建usb启动盘",
+                    "轻松创建 usb 启动盘",
                     "windows",
                     "linux"
                 ]
@@ -823,7 +823,7 @@
                 "logo": "bootcss.png",
                 "search": [
                     "bootcss",
-                    "bootstrap中文网",
+                    "bootstrap 中文网",
                     "前端开源工具包",
                     "教程文档",
                     "翻译"
@@ -838,6 +838,18 @@
                     "bootcdn",
                     "bootcdn",
                     "开源 免费 cdn"
+                ]
+            },
+            {
+                "name": "兼容性查询",
+                "description": "ES6 & CSS3 兼容性查询",
+                "url": "http://www.caniuse.com",
+                "logo": "caniuse.png",
+                "search": [
+                    "caniuse",
+                    "兼容性查询",
+                    "es6 & css3 兼容性查询",
+                    "浏览器兼容性"
                 ]
             },
             {
@@ -904,7 +916,7 @@
                 "search": [
                     "rsshub",
                     "rsshub",
-                    "rss订阅源"
+                    "rss 订阅源"
                 ]
             },
             {
@@ -915,7 +927,7 @@
                 "search": [
                     "inoreader",
                     "inoreader",
-                    "同步rss源，在线阅读，中文界面"
+                    "同步 rss 源，在线阅读，中文界面"
                 ]
             },
             {
@@ -926,7 +938,7 @@
                 "search": [
                     "feeder",
                     "feeder",
-                    "在线rss阅读，英文界面"
+                    "在线 rss 阅读，英文界面"
                 ]
             },
             {
@@ -948,7 +960,7 @@
                 "search": [
                     "reederapp",
                     "reeder",
-                    "ios&mac阅读器"
+                    "ios&mac 阅读器"
                 ]
             }
         ]
