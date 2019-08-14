@@ -91,7 +91,7 @@
             {
                 "name": "电影盒子",
                 "description": "免费电影",
-                "url": "http://tv3box.com/",
+                "url": "http://www.ifulivip.top/",
                 "logo": "5iwanyouxi.png",
                 "search": [
                     "5iwanyouxi",
@@ -186,7 +186,7 @@
             {
                 "name": "炉石传说",
                 "description": "卡牌游戏",
-                "url": "http://hs.blizzard.cn",
+                "url": "http://hs.blizzard.cn/home",
                 "logo": "blizzard-hs.png",
                 "search": [
                     "blizzard-hs",
@@ -928,17 +928,6 @@
                     "inoreader",
                     "inoreader",
                     "同步 rss 源，在线阅读，中文界面"
-                ]
-            },
-            {
-                "name": "Feeder",
-                "description": "在线 RSS 阅读，英文界面",
-                "url": "https://feeder.co/reader",
-                "logo": "feeder.png",
-                "search": [
-                    "feeder",
-                    "feeder",
-                    "在线 rss 阅读，英文界面"
                 ]
             },
             {
