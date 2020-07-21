@@ -4,22 +4,22 @@
 
 ## 预览
 
-[![screenshot-site](./image/screenshot/site.png)](https://www.hjx24.com)
+[![screenshot-site](./image/screenshot/site.png)](https://huangjingxin.com)
 
 ## 技术
 
 - Vue
+- axios
 - Tailwind CSS
 - Iconfont
 - 响应式
-- PWA 
 - 搜索功能
 
 ## 关于
 
-网站主要是自己用，另一方面就是锻炼技术。
+网站主要是自己用，另外就是用来分享。
 
-**哎呦不错哦**：如果你觉得网站不错，欢迎收藏和投递 :smirk:
+**哎呦不错哦**：如果你觉得网站不错，欢迎收藏和推荐 :smirk:
 
 ## 好友
 

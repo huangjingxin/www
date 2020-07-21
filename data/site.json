@@ -1,7 +1,7 @@
 [
     {
         "icon": "icon-new",
-        "name": "资讯",
+        "name": "推荐",
         "lists": [
             {
                 "name": "微博热搜榜",
@@ -50,6 +50,17 @@
                 ]
             },
             {
+                "name": "哔哩哔哩",
+                "description": "国内知名视频网站",
+                "url": "https://www.bilibili.com/",
+                "logo": "bilibili.png",
+                "search": [
+                    "bilibili",
+                    "哔哩哔哩",
+                    "娱乐 学习 二次元"
+                ]
+            },
+            {
                 "name": "今日热榜",
                 "description": "热搜榜聚合，高效读新闻",
                 "url": "https://tophub.today",
@@ -86,17 +97,6 @@
                     "80s",
                     "80s电影网",
                     "看剧不花钱"
-                ]
-            },
-            {
-                "name": "电影盒子",
-                "description": "免费电影",
-                "url": "http://www.ifulivip.top/",
-                "logo": "5iwanyouxi.png",
-                "search": [
-                    "5iwanyouxi",
-                    "电影盒子",
-                    "免费电影"
                 ]
             },
             {
@@ -156,11 +156,23 @@
                 "name": "来漫画",
                 "description": "漫画网站，追更必备",
                 "url": "https://www.laimanhua.com/",
-                "logo": "laimanhua.png",
+                "logo": "default.png",
                 "search": [
                     "laimanhua",
                     "来漫画",
                     "漫画网站，追更必备",
+                    "免费"
+                ]
+            },
+            {
+                "name": "oh漫画",
+                "description": "漫画网站，排版很赞",
+                "url": "https://www.ohmanhua.com/",
+                "logo": "ohmanhua.jpg",
+                "search": [
+                    "ohmanhua",
+                    "oh漫画",
+                    "漫画网站，排版很赞",
                     "免费"
                 ]
             }
@@ -225,7 +237,7 @@
             {
                 "name": "蓝灯",
                 "description": "每当看不清的时候，你就需要一盏灯",
-                "url": "https://getlantern.com/zh_CN/index.html",
+                "url": "https://github.com/getlantern/lantern",
                 "logo": "lantern.ico",
                 "search": [
                     "lantern",
@@ -317,17 +329,6 @@
                 ]
             },
             {
-                "name": "磁力蛙",
-                "description": "最好用的磁力链接搜索引擎",
-                "url": "http://www.ciliwa.co",
-                "logo": "ciliwa.png",
-                "search": [
-                    "ciliwa",
-                    "磁力蛙",
-                    "最好用的磁力链接搜索引擎"
-                ]
-            },
-            {
                 "name": "MikuTools",
                 "description": "轻量的工具集合",
                 "url": "https://miku.tools/",
@@ -336,6 +337,85 @@
                     "miku",
                     "mikutools",
                     "轻量的工具集合"
+                ]
+            },
+            {
+                "name": "Bootstrap 中文网",
+                "description": "前端开源工具包",
+                "url": "http://www.bootcss.com",
+                "logo": "bootcss.png",
+                "search": [
+                    "bootcss",
+                    "bootstrap 中文网",
+                    "前端开源工具包",
+                    "教程文档",
+                    "翻译"
+                ]
+            },
+            {
+                "name": "BootCDN",
+                "description": "开源 免费 CDN",
+                "url": "https://www.bootcdn.cn",
+                "logo": "bootcdn.png",
+                "search": [
+                    "bootcdn",
+                    "bootcdn",
+                    "开源 免费 cdn"
+                ]
+            },
+            {
+                "name": "兼容性查询",
+                "description": "ES6 & CSS3 兼容性查询",
+                "url": "http://www.caniuse.com",
+                "logo": "caniuse.png",
+                "search": [
+                    "caniuse",
+                    "兼容性查询",
+                    "es6 & css3 兼容性查询",
+                    "浏览器兼容性"
+                ]
+            },
+            {
+                "name": "WEB.DEV",
+                "description": "网页性能检测",
+                "url": "https://web.dev",
+                "logo": "dev-web.png",
+                "search": [
+                    "dev-web",
+                    "web.dev",
+                    "网页性能检测"
+                ]
+            },
+            {
+                "name": "文章生成器",
+                "description": "狗屁不通文章生成器",
+                "url": "https://suulnnka.github.io/BullshitGenerator/index.html",
+                "logo": "default.png",
+                "search": [
+                    "狗屁不通文章生成器",
+                    "BullshitGenerator"
+                ]
+            },
+            {
+                "name": "RSSHub",
+                "description": "RSS 订阅源",
+                "url": "https://docs.rsshub.app",
+                "logo": "rsshub.png",
+                "search": [
+                    "rsshub",
+                    "rsshub",
+                    "rss 订阅源"
+                ]
+            },
+            {
+                "name": "Inoreader",
+                "description": "同步 RSS 源，在线阅读，中文界面",
+                "url": "https://www.inoreader.com/?lang=zh_CN",
+                "logo": "inoreader.png",
+                "search": [
+                    "inoreader",
+                    "inoreader",
+                    "同步 rss 源，在线阅读，中文界面"
                 ]
             }
         ]
@@ -392,10 +472,10 @@
             {
                 "name": "老殁",
                 "description": "破解软件，安全无毒，放心使用",
-                "url": "https://www.laomoit.com",
-                "logo": "laomoit.png",
+                "url": "https://www.mpyit.com",
+                "logo": "mpyit.png",
                 "search": [
-                    "laomoit",
+                    "mpyit",
                     "老殁",
                     "破解软件，安全无毒，放心使用"
                 ]
@@ -502,56 +582,6 @@
         ]
     },
     {
-        "icon": "icon-product",
-        "name": "产品",
-        "lists": [
-            {
-                "name": "人人都是产品经理",
-                "description": "产品经理、产品爱好者学习交流平台",
-                "url": "http://www.woshipm.com",
-                "logo": "woshipm.png",
-                "search": [
-                    "woshipm",
-                    "人人都是产品经理",
-                    "产品经理、产品爱好者学习交流平台"
-                ]
-            },
-            {
-                "name": "爱运营",
-                "description": "专注于网站产品运营管理、淘宝运营",
-                "url": "https://www.iyunying.org",
-                "logo": "iyunying.png",
-                "search": [
-                    "iyunying",
-                    "爱运营",
-                    "专注于网站产品运营管理、淘宝运营"
-                ]
-            },
-            {
-                "name": "鸟哥笔记",
-                "description": "移动营销深度精选,App运营推广人的干货食堂",
-                "url": "http://www.niaogebiji.com/",
-                "logo": "niaogebiji.png",
-                "search": [
-                    "niaogebiji",
-                    "鸟哥笔记",
-                    "移动营销深度精选,app运营推广人的干货食堂"
-                ]
-            },
-            {
-                "name": "产品壹佰",
-                "description": "最真实的产品经理学习网站",
-                "url": "http://www.chanpin100.com/",
-                "logo": "chanpin100.ico",
-                "search": [
-                    "chanpin100",
-                    "产品壹佰",
-                    "最真实的产品经理学习网站"
-                ]
-            }
-        ]
-    },
-    {
         "icon": "icon-material",
         "name": "素材",
         "lists": [
@@ -643,6 +673,17 @@
                     "dribbble",
                     "创意类作品在线服务交流网站"
                 ]
+            },
+            {
+                "name": "觅元素",
+                "description": "免抠素材",
+                "url": "http://www.51yuansu.com/",
+                "logo": "51yuansu.png",
+                "search": [
+                    "51yuansu",
+                    "免抠素材",
+                    "觅元素"
+                ]
             }
         ]
     },
@@ -698,17 +739,6 @@
                     "runningcheese",
                     "奔跑中的奶酪",
                     "高效学习法，火狐开发者"
-                ]
-            },
-            {
-                "name": "微夏博客网",
-                "description": "致力于网络优秀资源的分享、交流！",
-                "url": "http://www.vxia.net",
-                "logo": "vxia.png",
-                "search": [
-                    "vxia",
-                    "微夏博客网",
-                    "致力于网络优秀资源的分享、交流！"
                 ]
             }
         ]
@@ -775,34 +805,6 @@
                     "专业在线教育平台",
                     "教程"
                 ]
-            }
-        ]
-    },
-    {
-        "icon": "icon-code",
-        "name": "编程",
-        "lists": [
-            {
-                "name": "GitHub",
-                "description": "程序员的天堂",
-                "url": "https://github.com",
-                "logo": "github.png",
-                "search": [
-                    "github",
-                    "github",
-                    "程序员的天堂"
-                ]
-            },
-            {
-                "name": "码云",
-                "description": "国内版 GitHub",
-                "url": "https://gitee.com",
-                "logo": "gitee.png",
-                "search": [
-                    "gitee",
-                    "码云",
-                    "国内版 github"
-                ]
             },
             {
                 "name": "印记中文",
@@ -815,53 +817,6 @@
                     "前端知识库，中文文档",
                     "翻译"
                 ]
-            },
-            {
-                "name": "Bootstrap 中文网",
-                "description": "前端开源工具包",
-                "url": "http://www.bootcss.com",
-                "logo": "bootcss.png",
-                "search": [
-                    "bootcss",
-                    "bootstrap 中文网",
-                    "前端开源工具包",
-                    "教程文档",
-                    "翻译"
-                ]
-            },
-            {
-                "name": "BootCDN",
-                "description": "开源 免费 CDN",
-                "url": "https://www.bootcdn.cn",
-                "logo": "bootcdn.png",
-                "search": [
-                    "bootcdn",
-                    "bootcdn",
-                    "开源 免费 cdn"
-                ]
-            },
-            {
-                "name": "兼容性查询",
-                "description": "ES6 & CSS3 兼容性查询",
-                "url": "http://www.caniuse.com",
-                "logo": "caniuse.png",
-                "search": [
-                    "caniuse",
-                    "兼容性查询",
-                    "es6 & css3 兼容性查询",
-                    "浏览器兼容性"
-                ]
-            },
-            {
-                "name": "WEB.DEV",
-                "description": "网页性能检测",
-                "url": "https://web.dev",
-                "logo": "dev-web.png",
-                "search": [
-                    "dev-web",
-                    "web.dev",
-                    "网页性能检测"
-                ]
             }
         ]
     },
@@ -872,10 +827,10 @@
             {
                 "name": "云短信",
                 "description": "临时接收验证码，避免信息泄露",
-                "url": "https://www.pdflibr.com",
-                "logo": "pdflibr.ico",
+                "url": "https://www.materialtools.com",
+                "logo": "materialtools.png",
                 "search": [
-                    "pdflibr",
+                    "materialtools",
                     "云短信",
                     "临时接收验证码，避免信息泄露"
                 ]
@@ -900,56 +855,6 @@
                     "firefox-send",
                     "临时网盘",
                     "临时发送文件，避免信息泄露"
-                ]
-            }
-        ]
-    },
-    {
-        "icon": "icon-rss",
-        "name": "RSS",
-        "lists": [
-            {
-                "name": "RSSHub",
-                "description": "RSS 订阅源",
-                "url": "https://docs.rsshub.app",
-                "logo": "rsshub.png",
-                "search": [
-                    "rsshub",
-                    "rsshub",
-                    "rss 订阅源"
-                ]
-            },
-            {
-                "name": "Inoreader",
-                "description": "同步 RSS 源，在线阅读，中文界面",
-                "url": "https://www.inoreader.com/?lang=zh_CN",
-                "logo": "inoreader.png",
-                "search": [
-                    "inoreader",
-                    "inoreader",
-                    "同步 rss 源，在线阅读，中文界面"
-                ]
-            },
-            {
-                "name": "RSS Feed Reader",
-                "description": "RSS Chrome 插件",
-                "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
-                "logo": "rss-feed-reader.png",
-                "search": [
-                    "rss-feed-reader",
-                    "rss feed reader",
-                    "rss chrome 插件"
-                ]
-            },
-            {
-                "name": "Reeder",
-                "description": "IOS&MAC 阅读器",
-                "url": "http://reederapp.com",
-                "logo": "reederapp.png",
-                "search": [
-                    "reederapp",
-                    "reeder",
-                    "ios&mac 阅读器"
                 ]
             }
         ]
