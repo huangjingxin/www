@@ -91,7 +91,7 @@
             {
                 "name": "80s电影网",
                 "description": "看剧不花钱",
-                "url": "https://www.80s.la",
+                "url": "http://www.80s.cm/",
                 "logo": "80s.png",
                 "search": [
                     "80s",
@@ -261,13 +261,13 @@
                 ]
             },
             {
-                "name": "173应用网",
+                "name": "扩展迷",
                 "description": "国内轻松下载 Chrome 拓展",
-                "url": "https://173app.com/chrome-ext",
-                "logo": "173app.png",
+                "url": "https://www.extfans.com/",
+                "logo": "extfans.png",
                 "search": [
-                    "173app",
-                    "173应用网",
+                    "extfans",
+                    "扩展迷",
                     "国内轻松下载 chrome 拓展"
                 ]
             },
@@ -376,17 +376,6 @@
                 ]
             },
             {
-                "name": "WEB.DEV",
-                "description": "网页性能检测",
-                "url": "https://web.dev",
-                "logo": "dev-web.png",
-                "search": [
-                    "dev-web",
-                    "web.dev",
-                    "网页性能检测"
-                ]
-            },
-            {
                 "name": "文章生成器",
                 "description": "狗屁不通文章生成器",
                 "url": "https://suulnnka.github.io/BullshitGenerator/index.html",
@@ -394,6 +383,17 @@
                 "search": [
                     "狗屁不通文章生成器",
                     "BullshitGenerator"
+                ]
+            },
+            {
+                "name": "TinyPNG",
+                "description": "图片压缩工具",
+                "url": "https://tinify.cn/",
+                "logo": "tinify.png",
+                "search": [
+                    "TinyPNG",
+                    "图片压缩工具",
+                    "tinify"
                 ]
             },
             {

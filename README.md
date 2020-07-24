@@ -9,7 +9,6 @@
 ## 技术
 
 - Vue
-- axios
 - Tailwind CSS
 - Iconfont
 - 响应式
