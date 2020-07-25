@@ -397,6 +397,28 @@
                 ]
             },
             {
+                "name": "Emoji 表情大全",
+                "description": "表情、颜文字搜索",
+                "url": "https://emojixd.com/",
+                "logo": "emojixd.ico",
+                "search": [
+                    "emojixd",
+                    "表情、颜文字搜索",
+                    "emoji"
+                ]
+            },
+            {
+                "name": "我爱斗图",
+                "description": "表情包搜索，斗图",
+                "url": "https://www.52doutu.cn/",
+                "logo": "52doutu.png",
+                "search": [
+                    "52doutu",
+                    "表情包搜索、制作",
+                    "我爱斗图"
+                ]
+            },
+            {
                 "name": "RSSHub",
                 "description": "RSS 订阅源",
                 "url": "https://docs.rsshub.app",
