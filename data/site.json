@@ -285,6 +285,17 @@
                 ]
             },
             {
+                "name": "PPT 资源导航",
+                "description": "PPT模板图表等设计素材免费下载",
+                "url": "http://www.hippter.com/",
+                "logo": "hippter.ico",
+                "search": [
+                    "hippter",
+                    "PPT模板图表等设计素材免费下载",
+                    "PPT 资源导航"
+                ]
+            },
+            {
                 "name": "ToolFK",
                 "description": "程序员在线工具",
                 "url": "https://www.toolfk.com",
@@ -838,6 +849,17 @@
                     "印记中文",
                     "前端知识库，中文文档",
                     "翻译"
+                ]
+            },
+            {
+                "name": "crashcourse",
+                "description": "Youtube 著名速成课",
+                "url": "https://crashcourse.club/category/",
+                "logo": "crashcourse.png",
+                "search": [
+                    "crashcourse",
+                    "Crash Course 中文字幕组",
+                    "youtube 著名速成课"
                 ]
             }
         ]
