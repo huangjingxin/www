@@ -11,20 +11,14 @@ new Vue({
         results_view: [], // results 中可见元素的 index 组成的 arr
         id: 0, // results 中 hover 元素的 id
     },
-    created() {
+    async created() {
         if (document.documentElement.clientWidth > 567) {
             this.showMenu = true;
         }
-        fetch('./data/site.json')
-            .then(res => res.json())
-            .then(data => {
-                this.sites = data;
-            });
-        fetch('./data/app.json')
-            .then(res => res.json())
-            .then(data => {
-                this.apps = data;
-            });
+
+        this.apps = await fetch('./data/app.json').then(res => res.json());
+        this.sites = await fetch('./data/site.json').then(res => res.json());
+
         // 初始化 results_view 数组
         this.results_view = Array.from(new Array(Math.floor(window.innerHeight * 0.8 / 130) - 1).keys());
     },

@@ -6,12 +6,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no,user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- PWA -->
-    <link rel="manifest" href="/pwa/manifest.json">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="黄敬鑫导航">
-    <link rel="apple-touch-icon" href="pwa/icons/logo-256.png">
+
     <!-- cdn & iconfont -->
     <script src="./cdn/vue.min.js"></script>
     <link href="./cdn/tailwindcss.min.css" rel="stylesheet">
@@ -105,21 +100,17 @@
                                         <div class="w-full h-full p-4 cursor-text text-sm z-20" id="search-guide-show">
                                             <h2 class="font-bold text-base mb-1">善用搜索，事半功倍</h2>
 
-                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: 15px">关键词</h3>
+                                            <h3 class="mt-4 mb-4 font-bold" style="font-size: 15px">关键词</h3>
                                             <p>搜索索引由 <span class="text-red-500">域名、名字、描述和一些常用词汇</span> 组成。</p>
                                             <p class="mt-2">比如「英雄联盟」的关键词：</p>
-                                            <p class="mt-2">["qq-lol", "英雄联盟", "老兵不死，只是凋零", "lol", "游戏"]</p>
+                                            <p class="mt-2 text-red-300"> 英雄联盟、lol、游戏、老兵</p>
 
-                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">快捷键</h3>
-                                            <p> <span class="inline-block w-16">Enter：</span>进入第一个搜索结果</p>
+                                            <h3 class="mt-8 mb-2 font-bold" style="font-size: .935rem">快捷键</h3>
+                                            <p> <span class="inline-block w-16">Enter：</span>进入搜索结果</p>
                                             <p> <span class="inline-block w-16">Esc：</span>清除输入内容和搜索结果</p>
                                             <p> <span class="inline-block w-16">Up：</span>选择搜索结果</p>
                                             <p> <span class="inline-block w-16">Down：</span>选择搜索结果</p>
 
-                                            <h3 class="mt-4 mb-2 font-bold" style="font-size: .935rem">说明</h3>
-                                            <p> <span class="inline-block w-20">兼容性：</span>不兼容 IE</p>
-                                            <p> <span class="inline-block w-20">PWA：</span>请手动更新缓存</p>
-                                            <p> <span class="inline-block w-20">离线：</span>可离线访问</p>
                                             <p class="text-gray-500 mt-4 text-center">不要问为什么，就是这么任性</p>
                                         </div>
                                     </div>
@@ -200,19 +191,7 @@
 
 
                 <!-- 关于本站 -->
-                <div class="mt-8 bg-white p-6 text-gray-700" id="about">
-                    <div class="pb-4 mt-4">
-                        <span class="iconfont icon-tag"></span>
-                        <span class="">关于本站</span>
-                    </div>
-                    <div>
-                        <blockquote class="">
-                            <p class="">紧跟 <a href="http://www.duoluole.com" target="_blank"
-                                    class="text-blue-400">大神-轻狂志
-                                </a>步伐，在模仿中进步。</p>
-                        </blockquote>
-                    </div>
-
+                <div class="mt-8 bg-white p-6 pt-4 text-gray-700" id="about">
                     <div class="py-4 mt-2">
                         <span class="iconfont icon-tag"></span>
                         <span class="">关于站长</span>
@@ -222,6 +201,7 @@
                             <p>前端业余爱好者，欢迎加好友学习交流。</p>
                         </blockquote>
                     </div>
+                    <div></div>
                 </div>
 
 
@@ -248,7 +228,7 @@
 
                 <!-- 备案信息 -->
                 <div class="flex flex-col md:flex-row justify-center items-center mt-12">
-                    <p class="text-sm mx-4" style="color:#939393;">Copyright © 2019 黄敬鑫</p>
+                    <p class="text-sm mx-4" style="color:#939393;">Copyright © 2020 黄敬鑫</p>
                     <p class="text-sm mx-4" style="color:#939393;">粤ICP备19080640号-1</p>
                     <a target="_blank" class="block flex flex-row items-center mx-4"
                         href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030902001621">
@@ -270,7 +250,6 @@
 
 
     <script src="./static/main.js"></script>
-    <script src="./sw.js"></script>
 
 </body>
 
