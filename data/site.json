@@ -81,6 +81,16 @@
                     "anyknew",
                     "热搜榜聚合，高效读新闻"
                 ]
+            },
+            {
+                "name": "Google",
+                "description": "外事不决用谷歌",
+                "url": "https://www.google.com/ncr",
+                "logo": "Google.png",
+                "search": [
+                    "Google",
+                    "外事不决用谷歌"
+                ]
             }
         ]
     },
@@ -427,6 +437,28 @@
                     "52doutu",
                     "表情包搜索、制作",
                     "我爱斗图"
+                ]
+            },
+            {
+                "name": "超能搜",
+                "description": "百度网盘搜索神器",
+                "url": "https://www.chaonengso.com/",
+                "logo": "chaonengso.png",
+                "search": [
+                    "超能搜",
+                    "百度网盘搜索神器",
+                    "chaonengso"
+                ]
+            },
+            {
+                "name": "阿虚同学的储物间",
+                "description": "各种软件网站",
+                "url": "http://kyon945.ys168.com/",
+                "logo": "kyon945.png",
+                "search": [
+                    "超能搜",
+                    "各种软件网站",
+                    "kyon945"
                 ]
             },
             {
@@ -778,7 +810,7 @@
     },
     {
         "icon": "icon-student",
-        "name": "教程",
+        "name": "学习",
         "lists": [
             {
                 "name": "菜鸟教程",
@@ -849,6 +881,38 @@
                     "印记中文",
                     "前端知识库，中文文档",
                     "翻译"
+                ]
+            },
+            {
+                "name": "我要自学网",
+                "description": "全新版本，界面美观",
+                "url": "https://www.51zxw.net/",
+                "logo": "51zxw.png",
+                "search": [
+                    "我要自学网",
+                    "51zxw"
+                ]
+            },
+            {
+                "name": "学堂在线",
+                "description": "国家精品在线课程",
+                "url": "https://next.xuetangx.com/",
+                "logo": "xuetangx.png",
+                "search": [
+                    "学堂在线",
+                    "xuetangx",
+                    "国家精品在线课程"
+                ]
+            },
+            {
+                "name": "多邻国",
+                "description": "世上最佳的英语学习途径",
+                "url": "http://www.duolingo.cn/",
+                "logo": "duolingo.ico",
+                "search": [
+                    "我要自学网",
+                    "世上最佳的英语学习途径",
+                    "duolingo"
                 ]
             },
             {
