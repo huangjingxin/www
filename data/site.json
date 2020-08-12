@@ -84,11 +84,11 @@
             },
             {
                 "name": "Google",
-                "description": "外事不决用谷歌",
+                "description": "外事不决问谷歌",
                 "url": "https://www.google.com/ncr",
                 "logo": "google.png",
                 "search": [
-                    "Google",
+                    "google",
                     "外事不决用谷歌"
                 ]
             }
@@ -135,7 +135,7 @@
                     "jiumodiary",
                     "鸠摩搜索",
                     "名著小说，多种格式",
-                    "免费"
+                    "免费 书籍 名著"
                 ]
             },
             {
@@ -814,24 +814,24 @@
         "lists": [
             {
                 "name": "菜鸟教程",
-                "description": "学的不仅是技术，更是梦想！",
+                "description": "学的不仅是技术，更是梦想",
                 "url": "http://www.runoob.com",
                 "logo": "runoob.png",
                 "search": [
                     "runoob",
                     "菜鸟教程",
-                    "学的不仅是技术，更是梦想！"
+                    "学的不仅是技术，更是梦想"
                 ]
             },
             {
                 "name": "w3school",
-                "description": "全球最大的中文 Web 技术教程。",
+                "description": "全球最大的中文 Web 技术教程",
                 "url": "http://www.w3school.com.cn/",
                 "logo": "w3school.png",
                 "search": [
                     "w3school",
                     "w3school",
-                    "全球最大的中文 web 技术教程。"
+                    "全球最大的中文 web 技术教程"
                 ]
             },
             {

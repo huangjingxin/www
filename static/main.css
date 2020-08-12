@@ -88,9 +88,9 @@ a {
 /* 搜索引导 ？ hover 显示*/
 #search-guide-absolute {
     position: absolute;
-    width: 450px;
+    width: 400px;
     top: 3.5rem;
-    right: 1.5rem;
+    right: 3rem;
     display: none;
 }
 
@@ -100,6 +100,6 @@ a {
 
 
 #search-guide-outer {
-    width: 450px;
+    width: 400px;
     padding: .25rem .1rem .25rem 0;
 }
