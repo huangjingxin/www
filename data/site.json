@@ -735,8 +735,18 @@
                 "logo": "dribbble.ico",
                 "search": [
                     "dribbble",
-                    "dribbble",
                     "创意类作品在线服务交流网站"
+                ]
+            },
+            {
+                "name": "地图选择器",
+                "description": "高清地图模板，可用于PPT",
+                "url": "http://datav.aliyun.com/tools/atlas",
+                "logo": "datav.jpg",
+                "search": [
+                    "地图选择器",
+                    "datav.aliyun",
+                    "高清地图模板，可用于ppt"
                 ]
             },
             {
