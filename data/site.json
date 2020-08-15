@@ -429,17 +429,6 @@
                 ]
             },
             {
-                "name": "我爱斗图",
-                "description": "表情包搜索，斗图",
-                "url": "https://www.52doutu.cn/",
-                "logo": "52doutu.png",
-                "search": [
-                    "52doutu",
-                    "表情包搜索、制作",
-                    "我爱斗图"
-                ]
-            },
-            {
                 "name": "超能搜",
                 "description": "百度网盘搜索神器",
                 "url": "https://www.chaonengso.com/",
@@ -681,6 +670,28 @@
                     "huaban",
                     "花瓣网",
                     "图片素材"
+                ]
+            },
+            {
+                "name": "我爱斗图",
+                "description": "表情包搜索，斗图",
+                "url": "https://www.52doutu.cn/",
+                "logo": "52doutu.png",
+                "search": [
+                    "52doutu",
+                    "表情包搜索、制作",
+                    "我爱斗图"
+                ]
+            },
+            {
+                "name": "PPT超级市场",
+                "description": "PPT模板免费下载",
+                "url": "http://ppt.sotary.com/web/wxapp/index.html",
+                "logo": "sotary.ico",
+                "search": [
+                    "PPT超级市场",
+                    "sotary",
+                    "ppt模板免费下载"
                 ]
             },
             {
