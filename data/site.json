@@ -18,7 +18,7 @@
             {
                 "name": "知乎热榜",
                 "description": "知乎热搜",
-                "url": "https://www.zhihu.com/billboard",
+                "url": "https://www.zhihu.com/hot",
                 "logo": "zhihu.png",
                 "search": [
                     "zhihu",
