@@ -39,17 +39,6 @@
                 ]
             },
             {
-                "name": "Hacker News",
-                "description": "黑客新闻",
-                "url": "https://news.ycombinator.com",
-                "logo": "ycombinator.png",
-                "search": [
-                    "ycombinator",
-                    "hacker news",
-                    "黑客新闻"
-                ]
-            },
-            {
                 "name": "哔哩哔哩",
                 "description": "国内知名视频网站",
                 "url": "https://www.bilibili.com/",
@@ -108,17 +97,6 @@
                     "80s电影网",
                     "看剧不花钱"
                 ]
-            },
-            {
-                "name": "北漂鱼",
-                "description": "VIP视频解析，付费视频免费看",
-                "url": "http://tv.beipy.com/#",
-                "logo": "beipy.png",
-                "search": [
-                    "beipy",
-                    "北漂鱼",
-                    "vip视频解析，付费视频免费看"
-                ]
             }
         ]
     },
@@ -175,13 +153,13 @@
                 ]
             },
             {
-                "name": "oh漫画",
+                "name": "coco漫画",
                 "description": "漫画网站，排版很赞",
-                "url": "https://www.ohmanhua.com/",
-                "logo": "ohmanhua.jpg",
+                "url": "https://www.cocomanhua.com/",
+                "logo": "cocomanhua.jpg",
                 "search": [
-                    "ohmanhua",
-                    "oh漫画",
+                    "cocomanhua",
+                    "coco漫画",
                     "漫画网站，排版很赞",
                     "免费"
                 ]
@@ -245,20 +223,6 @@
         "name": "工具",
         "lists": [
             {
-                "name": "蓝灯",
-                "description": "每当看不清的时候，你就需要一盏灯",
-                "url": "https://github.com/getlantern/lantern",
-                "logo": "lantern.ico",
-                "search": [
-                    "lantern",
-                    "蓝灯",
-                    "每当看不清的时候，你就需要一盏灯",
-                    "科学上网",
-                    "翻墙",
-                    "梯子"
-                ]
-            },
-            {
                 "name": "浏览器拓展",
                 "description": "谷歌浏览器拓展程序",
                 "url": "https://chrome.google.com/webstore/category/extensions?hl=zh-CN",
@@ -271,14 +235,14 @@
                 ]
             },
             {
-                "name": "扩展迷",
-                "description": "国内轻松下载 Chrome 拓展",
-                "url": "https://www.extfans.com/",
-                "logo": "extfans.png",
+                "name": "极简插件",
+                "description": "Chrome 拓展 浏览器插件",
+                "url": "https://chrome.zzzmh.cn/",
+                "logo": "zzzmh.jpg",
                 "search": [
-                    "extfans",
-                    "扩展迷",
-                    "国内轻松下载 chrome 拓展"
+                    "zzzmh",
+                    "极简插件",
+                    "Chrome 拓展 浏览器插件"
                 ]
             },
             {
@@ -292,6 +256,17 @@
                     "油猴脚本",
                     "开挂",
                     "浏览器"
+                ]
+            },
+            {
+                "name": "阿里妈妈 抠图",
+                "description": "免费 精准 抠图",
+                "url": "https://chuangyi.taobao.com/tools/santi",
+                "logo": "chuangyi.png",
+                "search": [
+                    "阿里妈妈",
+                    "免费 精准 抠图",
+                    "chuangyi"
                 ]
             },
             {
@@ -442,12 +417,12 @@
             {
                 "name": "阿虚同学的储物间",
                 "description": "各种软件网站",
-                "url": "http://kyon945.ys168.com/",
-                "logo": "kyon945.png",
+                "url": "https://axutongxue.com/",
+                "logo": "axutongxue.png",
                 "search": [
-                    "超能搜",
+                    "阿虚同学的储物间",
                     "各种软件网站",
-                    "kyon945"
+                    "axutongxue"
                 ]
             },
             {
@@ -692,17 +667,6 @@
                     "PPT超级市场",
                     "sotary",
                     "ppt模板免费下载"
-                ]
-            },
-            {
-                "name": "Google Fonts",
-                "description": "谷歌字体",
-                "url": "https://fonts.google.com",
-                "logo": "google-fonts.png",
-                "search": [
-                    "google-fonts",
-                    "google fonts",
-                    "谷歌字体"
                 ]
             },
             {
@@ -973,17 +937,6 @@
                     "linshiyouxiang",
                     "临时邮箱",
                     "临时接收邮件，避免信息泄露"
-                ]
-            },
-            {
-                "name": "临时网盘",
-                "description": "临时发送文件，避免信息泄露",
-                "url": "https://send.firefox.com",
-                "logo": "firefox-send.png",
-                "search": [
-                    "firefox-send",
-                    "临时网盘",
-                    "临时发送文件，避免信息泄露"
                 ]
             }
         ]
